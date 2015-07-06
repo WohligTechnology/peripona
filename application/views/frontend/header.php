@@ -20,8 +20,8 @@
     <!--    <link rel="stylesheet" href="css/main.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
-    <script src="<?php echo base_url(" frontassets ");?>/js/jquery-1.11.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url("frontassets");?>/js/jquery-1.11.1.min.js"></script>
+ 
 
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>

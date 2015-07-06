@@ -46,6 +46,7 @@
                     </form>
                     <div class="pull-right footer-icons">
                         <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"> <i class="fa fa-instagram"></i>
                         </a>
                     </div>
@@ -60,6 +61,7 @@
         </div>
     </div>
 </footer>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 

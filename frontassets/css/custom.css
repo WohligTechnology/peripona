@@ -250,6 +250,7 @@ form.form-inline.footer-form .form-group {
     font-family: Josefin Sans Light;
     font-weight: 600;
     margin: 0;
+    font-size: 16px;
 }
 
 .ftr-head h4 {
@@ -310,9 +311,12 @@ form.form-inline.footer-form .form-group {
     font-size: 24px;
     color: #464646;
 }
+.footer-icons i.fa.fa-twitter {
+    padding-right: 12px;
+}
 
 .pull-right.footer-icons i.fa.fa-facebook {
-    padding-right: 30px;
+    padding-right: 13px;
     color: #464646;
 }
 
@@ -323,6 +327,7 @@ form.form-inline.footer-form .form-group {
 .text-footer-link p {
     font-size: 11px;
     text-align: right;
+    line-height: 70%;
 }
 
 .contactform textarea {
@@ -331,7 +336,7 @@ form.form-inline.footer-form .form-group {
     text-transform: uppercase;
     border-color: #666666;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Josefin Sans Light;
     font-weight: 600;
 }
@@ -344,7 +349,7 @@ form.form-inline.footer-form .form-group {
     text-transform: uppercase;
     font-family: Josefin Sans Light;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     border-color: #666666;
     color: #000;
 }
@@ -387,5 +392,10 @@ form.form-inline.footer-form .form-group {
   outline: 0px;
 }
 .form-group.text-main input::-webkit-input-placeholder {
-   color: #353535;
+   color: #353535 !important;
+    font-family: 'josefin sans';
+    font-weight: 600;
+}
+.overviewdwn img {
+    width: 100%;
 }
