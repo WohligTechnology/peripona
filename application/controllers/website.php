@@ -10,10 +10,9 @@ class Website extends CI_Controller
 //        print_r($data["category"]);
         $this->load->view("frontend",$data);
 	}
-    public function martry( )
+    public function overview()
 	{
-		$data["page"]="martry";
-        //$data["category"]=$this->category_model->getallcategories();
+		$data["page"]="overview";
         $this->load->view("frontend",$data);
 	}
     public function detail( )

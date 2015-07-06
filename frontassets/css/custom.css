@@ -1,0 +1,391 @@
+.overview-cont {
+    padding: 30px 0;
+}
+
+.overview-cont p {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ftr-head h4 {
+    color: #aaaaaa;
+    font-weight: 100;
+    font-family: Josefin Sans Regular;
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+.text-footer-link {
+    padding-right: 27px;
+}
+.ftr-head ul li {
+    list-style: none;
+}
+
+form.form-inline.footer-form input {
+    background-color: transparent;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+form.form-inline.footer-form button {
+    background: #353535;
+    /* text-shadow: 0px 0px 0px; */
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: -4px;
+}
+
+form.form-inline.footer-form input:focus {
+    border-color: #aaaaaa;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+form.form-inline.footer-form button:focus {
+    border-color: #aaaaaa;
+}
+
+form.form-inline.footer-form .form-group {
+    width: 75%;
+}
+
+.pull-right.footer-icons i {
+    font-size: 24px;
+    color: #aaaaaa;
+}
+
+.pull-right.footer-icons i.fa.fa-facebook {
+    padding-right: 5px;
+}
+
+.pull-right.footer-icons {
+    padding: 25px 2px 12px 0;
+}
+
+.overview-cont {
+    padding: 30px 0;
+}
+
+.overview-cont p {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ftr-head h4 {
+    color: #aaaaaa;
+    font-weight: 100;
+    font-family: Josefin Sans Regular;
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    padding-top: 4px;
+}
+
+.ftr-head ul li {
+    list-style: none;
+}
+
+form.form-inline.footer-form input {
+    background-color: transparent;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+form.form-inline.footer-form button {
+    background: #353535;
+    /* text-shadow: 0px 0px 0px; */
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: -4px;
+}
+
+form.form-inline.footer-form input:focus {
+    border-color: #aaaaaa;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+form.form-inline.footer-form button:focus {
+    border-color: #aaaaaa;
+}
+
+form.form-inline.footer-form .form-group {
+    width: 80%;
+}
+
+.pull-right.footer-icons i {
+    font-size: 24px;
+    color: #aaaaaa;
+}
+
+.pull-right.footer-icons i.fa.fa-facebook {
+    padding-right: 5px;
+}
+
+.pull-right.footer-icons {
+    padding: 24px 2px 15px 0;
+}
+
+.text-footer-link p {
+    font-size: 11px;
+}
+
+.contactform textarea {
+    width: 100%;
+    min-height: 85px;
+    text-transform: uppercase;
+    border-color: #ddd;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+}
+
+.contactform input {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-height: 35px;
+    text-transform: uppercase;
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+}
+
+.contactform input:focus {
+    border-color: #ddd;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+.overview-cont {
+    padding: 30px 0;
+}
+
+.overview-cont p {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ftr-head h4 {
+    color: #aaaaaa;
+    font-weight: 100;
+    font-family: Josefin Sans Regular;
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.ftr-head ul li {
+    list-style: none;
+}
+
+form.form-inline.footer-form input {
+    background-color: transparent;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+form.form-inline.footer-form button {
+    background: #353535;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-left: -4px;
+}
+
+form.form-inline.footer-form input:focus {
+    border-color: #aaaaaa;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+form.form-inline.footer-form button:focus {
+    border-color: #aaaaaa;
+}
+
+form.form-inline.footer-form .form-group {
+    width: 75%;
+}
+
+.pull-right.footer-icons i {
+    font-size: 24px;
+    color: #aaaaaa;
+}
+
+.pull-right.footer-icons i.fa.fa-facebook {
+    padding-right: 5px;
+}
+
+.pull-right.footer-icons {
+    padding: 25px 2px 12px 0;
+}
+
+.overview-cont {
+    padding: 30px 0;
+}
+
+.overview-cont p {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ftr-head h4 {
+    color: #aaaaaa;
+    font-weight: 600;
+    font-family: 'Josefin Sans';
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+.ftr-head ul li {
+    list-style: none;
+}
+
+form.form-inline.footer-form input {
+    background-color: transparent;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+    border-color: #353535;
+}
+
+form.form-inline.footer-form button {
+    background: #353535;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-left: -4px;
+    border-color: #353535;
+    border: 0px;
+    padding: 7px 12px;
+    font-family: 'Josefin Sans';
+    text-shadow: none;
+}
+
+form.form-inline.footer-form input:focus {
+    border-color: #aaaaaa;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+form.form-inline.footer-form button:focus {
+    border-color: #aaaaaa;
+}
+
+form.form-inline.footer-form .form-group {
+    width: 80%;
+    border-color: #353535;
+}
+
+.pull-right.footer-icons i {
+    font-size: 24px;
+    color: #464646;
+}
+
+.pull-right.footer-icons i.fa.fa-facebook {
+    padding-right: 30px;
+    color: #464646;
+}
+
+.pull-right.footer-icons {
+    padding: 23px 28px 15px 0;
+}
+
+.text-footer-link p {
+    font-size: 11px;
+    text-align: right;
+}
+
+.contactform textarea {
+    width: 100%;
+    min-height: 105px;
+    text-transform: uppercase;
+    border-color: #666666;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+}
+
+.contactform input {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-height: 45px;
+    text-transform: uppercase;
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    font-size: 16px;
+    border-color: #666666;
+    color: #000;
+}
+
+.contactform input:focus {
+    border-color: #ddd;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+
+}
+.conct-head h1 {
+    font-family:'Josefin Sans';
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.contactform {
+    padding: 35px 0;
+}
+
+.conct-head {
+    padding: 13px 0;
+}
+.send.text-center a {
+    border: 1px solid;
+    text-decoration: none;
+    padding: 14px 100px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 17px;
+}
+
+.send {
+    padding: 50px 0px 28px 0;
+}
+
+.contactform textarea:focus {
+  outline: 0px;
+}
+.form-group.text-main input::-webkit-input-placeholder {
+   color: #353535;
+}
