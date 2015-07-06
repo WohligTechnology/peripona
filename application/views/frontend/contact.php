@@ -16,9 +16,10 @@
                 <p>Phoenix Marketcity</p>
                 <p>142, Velachery Main Road, Near Gurunanak College, </p>
                 <p>Velachery, Chennai, Tamil Nadu 600 042.</p>
-                <p class="pad-tp">Tel: +91 44 33161718</p>
-                <p class="pad-tp">Fax: +91 44 33161717</p>
-                
+                <div class="pad-tp">
+                <p>Tel: +91 44 33161718</p>
+                <p >Fax: +91 44 33161717</p>
+                </div>
             </div>
         </div>
         <div class="col-md-8">
