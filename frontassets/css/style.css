@@ -218,10 +218,17 @@ width: 100%;
 
 .contact-add h4 {
     font-family: 'Josefin Sans';
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2vw;
 }
 .contact-add {
     line-height: 100%;
     margin-top: 60px;
+}
+.phn-tp {
+    padding-top: 18px;
+}
+
+.map {
+    margin-top: 36px;
 }
