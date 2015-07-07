@@ -12,30 +12,8 @@ p {
     margin: 0;
 }
 
-.ftr-head h4 {
-    color: #aaaaaa;
-    font-weight: 100;
-    font-family: Josefin Sans Regular;
-    margin: 0;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-}
-
 .text-footer-link {
     padding-right: 27px;
-}
-
-.ftr-head ul li {
-    list-style: none;
-}
-
-form.form-inline.footer-form input {
-    background-color: transparent;
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    width: 100%;
 }
 
 form.form-inline.footer-form button {
@@ -47,13 +25,6 @@ form.form-inline.footer-form button {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-left: -4px;
-}
-
-form.form-inline.footer-form input:focus {
-    border-color: #aaaaaa;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
 }
 
 form.form-inline.footer-form button:focus {
@@ -77,16 +48,6 @@ form.form-inline.footer-form .form-group {
     padding: 25px 2px 12px 0;
 }
 
-.overview-cont {
-    padding: 30px 0;
-}
-
-.overview-cont p {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
-    margin: 0;
-}
-
 .ftr-head h4 {
     color: #aaaaaa;
     font-weight: 100;
@@ -108,32 +69,6 @@ form.form-inline.footer-form input {
     -moz-border-radius: 0px;
     border-radius: 0px;
     width: 100%;
-}
-
-form.form-inline.footer-form button {
-    background: #353535;
-    /* text-shadow: 0px 0px 0px; */
-    
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-left: -4px;
-}
-
-form.form-inline.footer-form input:focus {
-    border-color: #aaaaaa;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
-}
-
-form.form-inline.footer-form button:focus {
-    border-color: #aaaaaa;
-}
-
-form.form-inline.footer-form .form-group {
-    width: 80%;
 }
 
 .pull-right.footer-icons i {
@@ -181,16 +116,6 @@ form.form-inline.footer-form .form-group {
     box-shadow: 0px 0px 0px;
 }
 
-.overview-cont {
-    padding: 30px 0;
-}
-
-.overview-cont p {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
-    margin: 0;
-}
-
 .ftr-head h4 {
     color: #aaaaaa;
     font-weight: 100;
@@ -204,76 +129,9 @@ form.form-inline.footer-form .form-group {
     list-style: none;
 }
 
-form.form-inline.footer-form input {
-    background-color: transparent;
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    width: 100%;
-}
-
-form.form-inline.footer-form button {
-    background: #353535;
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-left: -4px;
-}
-
-form.form-inline.footer-form input:focus {
-    border-color: #aaaaaa;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
-}
-
-form.form-inline.footer-form button:focus {
-    border-color: #aaaaaa;
-}
 
 form.form-inline.footer-form .form-group {
     width: 75%;
-}
-
-.pull-right.footer-icons i {
-    font-size: 24px;
-    color: #aaaaaa;
-}
-
-.pull-right.footer-icons i.fa.fa-facebook {
-    padding-right: 5px;
-}
-
-.pull-right.footer-icons {
-    padding: 25px 2px 12px 0;
-}
-
-.overview-cont {
-    padding: 30px 0;
-}
-
-.overview-cont p {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
-    margin: 0;
-    font-size: 17px;
-}
-
-.ftr-head h4 {
-    color: #aaaaaa;
-    font-weight: 600;
-    font-family: 'Josefin Sans';
-    margin: 0;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    padding-top: 4px;
-    font-size: 15px;
-}
-
-.ftr-head ul li {
-    list-style: none;
 }
 
 form.form-inline.footer-form input {
@@ -428,10 +286,10 @@ form.form-inline.footer-form .form-group {
 }
 
 .explore p {
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .explore-img {
