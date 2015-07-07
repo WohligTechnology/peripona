@@ -20,6 +20,12 @@ class Website extends CI_Controller
 	{
 		$data["page"]="gallery";
         $this->load->view("frontend",$data);
+	}   
+    
+    public function explore()
+	{
+		$data["page"]="explore";
+        $this->load->view("frontend",$data);
 	}
     public function detail( )
 	{
