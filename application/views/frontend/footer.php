@@ -62,18 +62,19 @@
     </div>
 </footer>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-   <script1>
+   <script>
        $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     animationLoop: false,
-    itemWidth: 210,
-    itemMargin: 5,
-    minItems: 2,
-    maxItems: 4
+        pauseOnHover: true,
+    itemWidth: 284,
+//    itemMargin: 5,
+  
+    maxItems: 3
   });
 });
-   </script1>
+   </script>
 </body>
 
 

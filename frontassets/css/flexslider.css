@@ -49,6 +49,8 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  margin: 0px 14px;
+  width: 364px !important;
 }
 .flexslider .slides img {
   width: 100%;
@@ -75,7 +77,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0 0 38px;
   background: #ffffff;
   border: 4px solid #ffffff;
   position: relative;
@@ -92,7 +94,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
+  height: 300px;
 }
 .flex-viewport {
   max-height: 2000px;
@@ -115,7 +117,7 @@ html[xmlns] .flexslider .slides {
   text-decoration: none;
   display: block;
   width: 40px;
-  height: 40px;
+  height: 46px;
   margin: -20px 0 0;
   position: absolute;
   top: 50%;
@@ -130,38 +132,44 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+      background: url('../../frontassets/image/right.jpg)no-repeat;
 }
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 40px;
-  display: inline-block;
-  content: '\f001';
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  
+   content: " ";
+    display: block;
+    background: url('../image/left.jpg') no-repeat;
+    width: 40px;
+    
+   height: 46px;
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+    content: " ";
+    display: block;
+  background: url('../image/right.jpg') no-repeat;
+    width: 40px;
+    height: 52px;
 }
 .flex-direction-nav .flex-prev {
-  left: -50px;
+  left: 0px !important;
 }
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
-.flexslider:hover .flex-direction-nav .flex-prev {
+.flexslider .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 1;
+  /* opacity: 1; */
 }
-.flexslider:hover .flex-direction-nav .flex-next {
+.flexslider .flex-direction-nav .flex-next {
   opacity: 0.7;
-  right: 10px;
+  right: 0px;
 }
 .flexslider:hover .flex-direction-nav .flex-next:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;
@@ -198,6 +206,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   bottom: -40px;
   text-align: center;
+  display: none;
 }
 .flex-control-nav li {
   margin: 0 6px;

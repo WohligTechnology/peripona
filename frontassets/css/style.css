@@ -250,3 +250,9 @@ width: 100%;
 .pad-tp {
     padding-top: 20px;
 }
+.row.gallery {
+    margin-top: 15px;
+}
+.row.mar-bt {
+    margin-bottom: 80px;
+}

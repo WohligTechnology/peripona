@@ -16,16 +16,78 @@
             <div class="flexslider">
   <ul class="slides">
     <li>
-      <img src="<?php echo base_url('frontassets/image/gallery.jpg'); ?>" />
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image/gallery.jpg'); ?>" />
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image/gallery.jpg'); ?>" />
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image/gallery.jpg'); ?>" />
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
+    </li> <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
+    </li>
+    <!-- items mirrored twice, total of 12 -->
+  </ul>
+</div>
+        </div>
+                <div class="row">
+            <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
+    </li> <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
+    </li>
+    <!-- items mirrored twice, total of 12 -->
+  </ul>
+</div>
+        </div>
+                <div class="row mar-bt">
+            <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
+    </li> <li>
+      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
     </li>
     <!-- items mirrored twice, total of 12 -->
   </ul>
