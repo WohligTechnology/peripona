@@ -1,3 +1,7 @@
+p {
+    font-family: Josefin Sans Light;
+}
+
 .overview-cont {
     padding: 30px 0;
 }
@@ -16,9 +20,11 @@
     margin-bottom: 6px;
     text-transform: uppercase;
 }
+
 .text-footer-link {
     padding-right: 27px;
 }
+
 .ftr-head ul li {
     list-style: none;
 }
@@ -35,6 +41,7 @@ form.form-inline.footer-form input {
 form.form-inline.footer-form button {
     background: #353535;
     /* text-shadow: 0px 0px 0px; */
+    
     color: #aaaaaa;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -106,6 +113,7 @@ form.form-inline.footer-form input {
 form.form-inline.footer-form button {
     background: #353535;
     /* text-shadow: 0px 0px 0px; */
+    
     color: #aaaaaa;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -311,6 +319,7 @@ form.form-inline.footer-form .form-group {
     font-size: 24px;
     color: #464646;
 }
+
 .footer-icons i.fa.fa-twitter {
     padding-right: 12px;
 }
@@ -359,14 +368,13 @@ form.form-inline.footer-form .form-group {
     -webkit-box-shadow: 0px 0px 0px;
     -moz-box-shadow: 0px 0px 0px;
     box-shadow: 0px 0px 0px;
-
 }
+
 .conct-head h1 {
-    font-family:'Josefin Sans';
+    font-family: 'Josefin Sans';
     text-transform: uppercase;
     font-weight: 500;
 }
-
 
 .contactform {
     padding: 35px 0;
@@ -375,6 +383,7 @@ form.form-inline.footer-form .form-group {
 .conct-head {
     padding: 13px 0;
 }
+
 .send.text-center a {
     border: 1px solid;
     text-decoration: none;
@@ -389,13 +398,64 @@ form.form-inline.footer-form .form-group {
 }
 
 .contactform textarea:focus {
-  outline: 0px;
+    outline: 0px;
 }
+
 .form-group.text-main input::-webkit-input-placeholder {
-   color: #353535 !important;
+    color: #353535 !important;
     font-family: 'josefin sans';
     font-weight: 600;
 }
+
 .overviewdwn img {
     width: 100%;
+}
+
+.col-md-6.expores1 {
+    padding-left: 0px;
+}
+
+.col-md-6.expores2 {
+    padding-right: 0px;
+}
+
+.col-md-6.expores1 img {
+    width: 100%
+}
+
+.col-md-6.expores2 img {
+    width: 100%
+}
+
+.explore p {
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.explore-img {
+    min-height: 320px;
+}
+
+h3.header-explr {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.explore-content {
+    padding: 0 20px;
+}
+
+h3.explore-down {
+    font-family: Josefin Sans Regular;
+    padding-bottom: 50px;
+    color: #e30613;
+    font-weight: 100;
+}
+
+p.explore-plast {
+    margin-bottom: 10px;
 }
