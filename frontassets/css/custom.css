@@ -10,6 +10,7 @@ p {
     font-family: Josefin Sans Light;
     font-weight: 600;
     margin: 0;
+    font-size: 17px;
 }
 
 .text-footer-link {
@@ -119,7 +120,7 @@ form.form-inline.footer-form input {
 .ftr-head h4 {
     color: #aaaaaa;
     font-weight: 100;
-    font-family: Josefin Sans Regular;
+    font-family: Josefin Sans;
     margin: 0;
     margin-bottom: 6px;
     text-transform: uppercase;
@@ -231,7 +232,7 @@ form.form-inline.footer-form .form-group {
 .conct-head h1 {
     font-family: 'Josefin Sans';
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 100;
 }
 
 .contactform {

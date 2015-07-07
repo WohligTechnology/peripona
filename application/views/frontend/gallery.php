@@ -14,26 +14,33 @@
         </div>
         <div class="row gallery">
             <div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
+   <ul class="slides">
+    <li >
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>"><img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" /></a> 
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
-    </li>
-    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>">
       <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
+        </a>
+    </li>
+    <li>
+       <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>">
+           <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" /></a>
+    </li>
+    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" /></a>
+    </li>
+    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" /></a>
+    </li>
+    <li>
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" /></a>
     </li> <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" /></a>
     </li>
     <!-- items mirrored twice, total of 12 -->
   </ul>
@@ -42,25 +49,32 @@
                 <div class="row">
             <div class="flexslider">
   <ul class="slides">
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
+    <li >
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>"><img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" /></a> 
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
-    </li>
-    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>">
       <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
+        </a>
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
+       <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>">
+           <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" /></a>
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" /></a>
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" /></a>
+    </li>
+    <li>
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" /></a>
     </li> <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" /></a>
     </li>
     <!-- items mirrored twice, total of 12 -->
   </ul>
@@ -69,25 +83,32 @@
                 <div class="row mar-bt">
             <div class="flexslider">
   <ul class="slides">
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" />
+    <li >
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>"><img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" /></a> 
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" />
-    </li>
-    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>">
       <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
+        </a>
     </li>
     <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" />
+       <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>">
+           <img src="<?php echo base_url('frontassets/image//gallery/gallery7.jpg'); ?>" /></a>
+    </li>
+    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery3.jpg'); ?>" /></a>
+    </li>
+    <li>
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>">
+         <img src="<?php echo base_url('frontassets/image//gallery/gallery6.jpg'); ?>" /></a>
+    </li>
+    <li>
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery2.jpg'); ?>" /></a>
     </li> <li>
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" />
+      <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image//gallery/gallery1.jpg'); ?>" /></a>
     </li>
     <!-- items mirrored twice, total of 12 -->
   </ul>

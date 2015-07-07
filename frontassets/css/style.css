@@ -98,7 +98,6 @@ footer.foot-main {
 .ftr-head p {
     color: #aaaaaa;
     font-family: 'Josefin Sans';
-    font-weight: 600;
 }
 .ftr-head {
   line-height: 100%;
@@ -255,4 +254,11 @@ width: 100%;
 }
 .row.mar-bt {
     margin-bottom: 80px;
+}
+.container.footer-menu {
+    margin: 30px auto;
+}
+.overview-cont.text-center p {
+    font-size: 17px;
+    font-weight: 600;
 }
