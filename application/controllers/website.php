@@ -15,6 +15,12 @@ class Website extends CI_Controller
 		$data["page"]="overview";
         $this->load->view("frontend",$data);
 	}
+    
+    public function gallery()
+	{
+		$data["page"]="gallery";
+        $this->load->view("frontend",$data);
+	}
     public function detail( )
 	{
         $id=$this->input->get("id");

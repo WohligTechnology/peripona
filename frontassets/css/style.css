@@ -166,12 +166,10 @@ header a {
 .centered-pills {
   text-align: center;
   font-family: 'Josefin Sans';
-  font-size: 9px;
 }
 
 .centered-pills ul.nav-pills {
   display: inline-block;
-  font-size: 12px;
 }
 
 .centered-pills li {
@@ -181,6 +179,7 @@ header a {
 .thin li a {
   font-size: 13px;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .contact-bk img{
@@ -228,13 +227,13 @@ width: 100%;
 }
 .contact-add p {
     font-family: 'Josefin Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 15px;
 }
 
 .contact-add h4 {
     font-family: 'Josefin Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
 }
 .contact-add {

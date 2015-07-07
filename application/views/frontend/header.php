@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/style.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/custom.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/flexslider.css'); ?>" />
     <!--    <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/image/style.css'); ?>" />-->
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
     <script src="<?php echo base_url("frontassets");?>/js/jquery-1.11.1.min.js"></script>
+    <script src="<?php echo base_url("frontassets");?>/js/jquery.flexslider.js"></script>
  
 
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
