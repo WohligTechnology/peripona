@@ -222,7 +222,7 @@ width: 100%;
      bottom: -10px;
 }
 .mini-circle{
-     height: 10px;
+     height: 11px;
      width: 23px;
      border-radius: 90px 90px 0 0;
      -moz-border-radius: 90px 90px 0 0;
@@ -235,7 +235,7 @@ width: 100%;
      -ms-transform: translatex(-50%);
      -o-transform: translatex(-50%);
      transform: translatex(-50%);
-     bottom: -18px;
+     bottom: -19px;
 }
 .contact-bk {
     position: relative;
@@ -292,4 +292,16 @@ width: 100%;
 }
 .bath-set img {
     padding-bottom: 10px;
+}
+.ul-list ul {
+    font-family: Josefin Sans Light;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ul-list {
+    margin: 45px auto;
+}
+.margin-tp {
+    margin-top: 40px;
 }
