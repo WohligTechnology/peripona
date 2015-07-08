@@ -21,15 +21,6 @@ form.form-inline.footer-form button:focus {
     border-color: #aaaaaa;
 }
 
-.ftr-head h4 {
-    color: #aaaaaa;
-    font-weight: 100;
-    font-family: Josefin Sans Regular;
-    margin: 0;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    padding-top: 4px;
-}
 
 .ftr-head ul li {
     list-style: none;
