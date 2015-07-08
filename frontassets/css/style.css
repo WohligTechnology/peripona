@@ -343,3 +343,7 @@ p.date-bold {
 .row.mrg {
     margin: 80px auto;
 }
+.box a:hover {
+    text-decoration: none;
+    color: #fff;
+}
