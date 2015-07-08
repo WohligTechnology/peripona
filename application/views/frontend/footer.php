@@ -1,7 +1,7 @@
 <footer class="foot-main">
     <div class="container footer-menu">
         <div class="row">
-            <div class="col-md-4 col-xs-6">
+            <div class="col-md-4 col-sm-12">
                 <div class="ftr-head">
                     <h4>DESIGN HOTEL CHENNAI</h4>
                     <p>
@@ -17,7 +17,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-6">
+            <div class="col-md-4 col-sm-12">
                 <div class="ftr-head">
                     <ul>
                         <li><a href="#">  OVERVIEW</a>
@@ -35,7 +35,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-6">
+            <div class="col-md-4 col-sm-12">
                 <div class="ftr-head">
                     <h4>NEWSLETTER SIGNUP</h4>
                     <form class="form-inline footer-form">

@@ -17,36 +17,8 @@ p {
     padding-right: 27px;
 }
 
-form.form-inline.footer-form button {
-    background: #353535;
-    /* text-shadow: 0px 0px 0px; */
-    
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-left: -4px;
-}
-
 form.form-inline.footer-form button:focus {
     border-color: #aaaaaa;
-}
-
-form.form-inline.footer-form .form-group {
-    width: 75%;
-}
-
-.pull-right.footer-icons i {
-    font-size: 24px;
-    color: #aaaaaa;
-}
-
-.pull-right.footer-icons i.fa.fa-facebook {
-    padding-right: 5px;
-}
-
-.pull-right.footer-icons {
-    padding: 25px 2px 12px 0;
 }
 
 .ftr-head h4 {
@@ -70,23 +42,6 @@ form.form-inline.footer-form input {
     -moz-border-radius: 0px;
     border-radius: 0px;
     width: 100%;
-}
-
-.pull-right.footer-icons i {
-    font-size: 24px;
-    color: #aaaaaa;
-}
-
-.pull-right.footer-icons i.fa.fa-facebook {
-    padding-right: 5px;
-}
-
-.pull-right.footer-icons {
-    padding: 24px 2px 15px 0;
-}
-
-.text-footer-link p {
-    font-size: 11px;
 }
 
 .contactform textarea {
@@ -128,11 +83,6 @@ form.form-inline.footer-form input {
 
 .ftr-head ul li {
     list-style: none;
-}
-
-
-form.form-inline.footer-form .form-group {
-    width: 75%;
 }
 
 form.form-inline.footer-form input {

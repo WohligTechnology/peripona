@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/style.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/custom.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/flexslider.css'); ?>" />
+       <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/css/mobile.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/fancy/jquery.fancybox.css?v=2.1.5'); ?>" />
     <!--    <link rel="stylesheet" type="text/css" href="<?php echo base_url('frontassets/image/style.css'); ?>" />-->
     
