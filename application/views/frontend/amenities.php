@@ -186,6 +186,7 @@ Hotel</li>
                     <p>check in</p>
                     <p class="date">12</p>
                     <p class="date-bold">SEPTEMBER ’15</p>
+                     <img src="<?php echo base_url('frontassets/image/amenites/border.png'); ?>" /></a>
                 </div>
                 </div>
                   <div class="col-md-6">

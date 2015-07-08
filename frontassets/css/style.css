@@ -1,11 +1,11 @@
-body{
-font-family: 'Josefin Sans','Questrial','Maven Pro' sans-serif;
-   
+body {
+    font-family: 'Josefin Sans', 'Questrial', 'Maven Pro' sans-serif;
 }
-a{
-text-decoration: none;
-    
+
+a {
+    text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -99,8 +99,9 @@ footer.foot-main {
     color: #aaaaaa;
     font-family: 'Josefin Sans';
 }
+
 .ftr-head {
-  line-height: 100%;
+    line-height: 100%;
 }
 
 .foot-main ul>li>a {
@@ -120,70 +121,73 @@ footer.foot-main {
 }
 
 .content.menu-main {
-  background: #000;
-  padding: 35px 0px 35px 0px;
+    background: #000;
+    padding: 35px 0px 35px 0px;
 }
 
-.logo {
-}
+.logo {}
 
 header a {
-  color: white;
-  font-weight: 300;
-  font-size: 14px;
-  text-transform: uppercase;
-  -webkit-transition: 300ms ease all;
-  -moz-transition: 300ms ease all;
-  -o-transition: 300ms ease all;
-  transition: 300ms ease all;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: 300ms ease all;
+    -moz-transition: 300ms ease all;
+    -o-transition: 300ms ease all;
+    transition: 300ms ease all;
 }
 
 .logo img {
-  width: 325px;
+    width: 325px;
 }
 
 .navbar-default {
-  background: transparent !important;
-  border: 0px !important;
-  margin-bottom: 0px !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  box-shadow: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    margin-bottom: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
 }
-.nav>li>a:hover, .nav>li>a:focus {
-  text-decoration: none !important;
-  background-color: transparent !important;
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none !important;
+    background-color: transparent !important;
 }
+
 .navbar-collapse.collapse.thin {
     margin-top: 12px;
 }
+
 .nav-pills>li>a:hover {
-  
-    color:#fff;
+    color: #fff;
 }
 
 .centered-pills {
-  text-align: center;
-  font-family: 'Josefin Sans';
+    text-align: center;
+    font-family: 'Josefin Sans';
 }
 
 .centered-pills ul.nav-pills {
-  display: inline-block;
+    display: inline-block;
 }
 
 .centered-pills li {
-  display: inline;
+    display: inline;
 }
 
 .thin li a {
-  font-size: 13px;
-  cursor: pointer;
-  font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
 }
 
-.contact-bk img{
-width: 100%;
+.contact-bk img {
+    width: 100%;
 }
+
 .contact-text {
     position: absolute;
     text-transform: uppercase;
@@ -194,52 +198,57 @@ width: 100%;
     text-align: center;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
 .contact-text h1 {
     border-bottom: 3px solid;
     padding-bottom: 5px;
     font-size: 2.5vw;
 }
-.circle{
-     height: 20px;
-     width: 40px;
-     border-radius: 90px 90px 0 0;
-     -moz-border-radius: 90px 90px 0 0;
-     -webkit-border-radius: 0px 0px 90px 90px;
-     background: #e30613;
-     position: absolute;
-     left: 50%;
-     -webkit-transform: translatex(-50%);
-     -moz-transform: translatex(-50%);
-     -ms-transform: translatex(-50%);
-     -o-transform: translatex(-50%);
-     transform: translatex(-50%);
-     bottom: -10px;
+
+.circle {
+    height: 20px;
+    width: 40px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 0px 0px 90px 90px;
+    background: #e30613;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    bottom: -10px;
 }
-.mini-circle{
-     height: 11px;
-     width: 23px;
-     border-radius: 90px 90px 0 0;
-     -moz-border-radius: 90px 90px 0 0;
-     -webkit-border-radius: 0px 0px 90px 90px;
-     background: #e30613;
-     position: absolute;
-     left: 50%;
-     -webkit-transform: translatex(-50%);
-     -moz-transform: translatex(-50%);
-     -ms-transform: translatex(-50%);
-     -o-transform: translatex(-50%);
-     transform: translatex(-50%);
-     bottom: -19px;
+
+.mini-circle {
+    height: 11px;
+    width: 23px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 0px 0px 90px 90px;
+    background: #e30613;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    bottom: -19px;
 }
+
 .contact-bk {
     position: relative;
 }
+
 .contact-add p {
     font-family: 'Josefin Sans';
     font-weight: 700;
@@ -251,10 +260,12 @@ width: 100%;
     font-weight: 700;
     font-size: 16px;
 }
+
 .contact-add {
     line-height: 100%;
     margin-top: 60px;
 }
+
 .phn-tp {
     padding-top: 18px;
 }
@@ -262,22 +273,28 @@ width: 100%;
 .map {
     margin-top: 36px;
 }
+
 .pad-tp {
     padding-top: 20px;
 }
+
 .row.gallery {
     margin-top: 15px;
 }
+
 .row.mar-bt {
     margin-bottom: 80px;
 }
+
 .container.footer-menu {
     margin: 30px auto;
 }
+
 .overview-cont.text-center p {
     font-size: 17px;
     font-weight: 600;
 }
+
 .bath-set span {
     font-family: 'Josefin Sans';
     font-size: 18px;
@@ -290,9 +307,11 @@ width: 100%;
     padding: 0px;
     position: relative;
 }
+
 .bath-set img {
     padding-bottom: 10px;
 }
+
 .ul-list ul {
     font-family: Josefin Sans Light;
     font-weight: 600;
@@ -302,9 +321,11 @@ width: 100%;
 .ul-list {
     margin: 45px auto;
 }
+
 .margin-tp {
     margin-top: 40px;
 }
+
 .cal {
     text-align: center;
 }
@@ -325,6 +346,7 @@ p.date-bold {
     font-family: 'Josefin Sans';
     font-size: 13px;
 }
+
 .box {
     background-color: #5e5e5e;
     text-align: center;
@@ -340,10 +362,19 @@ p.date-bold {
     font-family: 'Josefin Sans';
     font-weight: 700;
 }
+
 .row.mrg {
     margin: 80px auto;
 }
+
 .box a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.cal img {
+    width: 5px;
+    position: absolute;
+    top: 25px;
+    right: -8px;
 }

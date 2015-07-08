@@ -42,6 +42,23 @@
         float: none !important;
         text-align: center;
     }
+    .col-md-6.expores1,
+    .col-md-6.expores2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .explore p {
+        font-size: 15px;
+    }
+
+    h3.header-explr,
+    h3.explore-down {
+        font-size: 20px;
+    }
+    .overview-cont.text-center p {
+        font-size: 15px;
+    }
     .container.footer-menu {
         margin: 10px auto;
     }
