@@ -25,7 +25,6 @@ form.form-inline.footer-form button:focus {
     list-style: none;
 }
 
-
 .contactform textarea {
     width: 100%;
     min-height: 85px;
@@ -77,15 +76,16 @@ form.form-inline.footer-form button:focus {
 }
 
 form.form-inline.footer-form input {
-  background-color: transparent;
-  color: #aaaaaa;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  width: 100%;
-  border-color: #353535;
-  font-family: Josefin Sans;
+    background-color: transparent;
+    color: #aaaaaa;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+    border-color: #353535;
+    font-family: Josefin Sans;
 }
+
 form.form-inline.footer-form button {
     background: #353535;
     color: #aaaaaa;
@@ -258,4 +258,58 @@ h3.explore-down {
 
 p.explore-plast {
     margin-bottom: 10px;
+}
+
+.col-sm-6.amenities-block {
+    min-height: 295px;
+}
+
+.navbar-collapse.collapse.thin ul li a {
+    position: relative;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    height: 35px;
+}
+
+.nav-pills>li>a>half-circle {
+    position: relative;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.nav-pills>li>a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.nav-pills>li>a:hover .half-circle {
+    height: 10px;
+    width: 23px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 0px 0px 110px 110px;
+    background: #e30613;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    bottom: -11px;
 }

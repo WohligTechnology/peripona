@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="row margin-tp">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/bath.png'); ?>">
                 <br>
@@ -34,7 +34,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/bed.png'); ?>">
                 <br>
@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/diner.png'); ?>">
                 <br>
@@ -73,7 +73,7 @@
                 </ul>
             </div>
         </div>
-       <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/tv.png'); ?>">
                 <br>
@@ -84,18 +84,16 @@
             </div>
             <div class="ul-list">
                 <ul style="list-style-type:disc">
-                    <li>42-Inch Flat Screen LCD 
-TV (3D TV in Maya)</li>
-                    <li>Complimentary Daily 
-Newspaper (National)</li>
+                    <li>42-Inch Flat Screen LCD TV (3D TV in Maya)</li>
+                    <li>Complimentary Daily Newspaper (National)</li>
                     <li>Movie Screenings</li>
-                
+
                 </ul>
             </div>
         </div>
     </div>
-        <div class="row margin-tp">
-        <div class="col-md-3">
+    <div class="row margin-tp">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/hotel.png'); ?>">
                 <br>
@@ -106,15 +104,15 @@ Newspaper (National)</li>
             </div>
             <div class="ul-list">
                 <ul style="list-style-type:disc">
-                    <li>Breakfast, Lunch & Dinner 
-at Annam Café</li>
+                    <li>Breakfast, Lunch & Dinner at Annam Café</li>
                     <li>In-Room Dining</li>
                     <li>Mini Bar</li>
-                    
+
                 </ul>
             </div>
         </div>
-        <div class="col-md-3">
+
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/work.png'); ?>">
                 <br>
@@ -125,8 +123,7 @@ at Annam Café</li>
             </div>
             <div class="ul-list">
                 <ul style="list-style-type:disc">
-                    <li>Conference Room, Seating 
-Eight (8)</li>
+                    <li>Conference Room, Seating Eight (8)</li>
                     <li>Video Conferencing</li>
                     <li>HDMI Connection </li>
                     <li>Media Hub </li>
@@ -136,7 +133,7 @@ Eight (8)</li>
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/wifi.png'); ?>">
                 <br>
@@ -147,14 +144,14 @@ Eight (8)</li>
             </div>
             <div class="ul-list">
                 <ul style="list-style-type:disc">
-                    <li>Free Wireless High Speed 
-Internet Access throughout 
-Hotel</li>
-                    
+                    <li>Free Wireless High Speed Internet Access throughout Hotel
+                    </li>
+
                 </ul>
             </div>
         </div>
-       <div class="col-md-3">
+
+        <div class="col-md-3 col-sm-6 amenities-block">
             <div class="bath-set text-center">
                 <img src="<?php echo base_url('frontassets/image/amenites/lunch.png'); ?>">
                 <br>
@@ -173,36 +170,38 @@ Hotel</li>
                     <li>Left Luggage Facilities</li>
                     <li>Shoe Cleaning Services</li>
                     <li>Newspaper</li>
-                
+
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="row mrg">
         <div class="col-md-offset-3 col-md-6">
-            <div class="col-md-6">
-               <div class="col-md-6">
-                <div class="cal">
-                    <p>check in</p>
-                    <p class="date">12</p>
-                    <p class="date-bold">SEPTEMBER ’15</p>
-                     <img src="<?php echo base_url('frontassets/image/amenites/border.png'); ?>" /></a>
+            <div class="col-md-6 col-sm-6">
+                <div class="col-xs-6">
+                    <div class="cal">
+                        <p>check in</p>
+                        <p class="date">12</p>
+                        <p class="date-bold">SEPTEMBER ’15</p>
+                        <img src="<?php echo base_url('frontassets/image/amenites/border.png'); ?>" />
+                        </a>
+                    </div>
                 </div>
-                </div>
-                  <div class="col-md-6">
-               <div class="cal">
-                    <p>check in</p>
-                    <p class="date">17</p>
-                    <p class="date-bold">OCTOBER ’15</p>
-                </div>
+                <div class="col-xs-6">
+                    <div class="cal">
+                        <p>check in</p>
+                        <p class="date">17</p>
+                        <p class="date-bold">OCTOBER ’15</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                 <div class="box">
                     <a href="">CHECK AVAILABILITY</a>
                 </div>
             </div>
         </div>
-       
+
     </div>
 </div>

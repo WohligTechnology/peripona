@@ -37,6 +37,7 @@
     }
     .pull-right.footer-icons {
         float: none!important;
+        padding: 15px 0;
     }
     .text-footer-link p.pull-right {
         float: none !important;
@@ -51,7 +52,19 @@
     .explore p {
         font-size: 15px;
     }
-
+    .box {
+        padding: 25px 0px;
+        margin-top: 150px;
+    }
+    .ftr-head ul {
+        padding: 0px;
+    }
+    .text-footer-link {
+        padding-right: 0px;
+    }
+    .nav>li>a {
+        padding: 10px 10px;
+    }
     h3.header-explr,
     h3.explore-down {
         font-size: 20px;
@@ -62,10 +75,26 @@
     .container.footer-menu {
         margin: 10px auto;
     }
+    .pad-tp {
+        padding-top: 5px;
+    }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1224px) {
+    .box a {
+        padding: 10px 9px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 766px) {
     .logo img {
         width: 200px;
+    }
+    .col-sm-6.amenities-block {
+        min-height: 230px;
+    }
+    .col-sm-6.amenities-block {
+        min-height: initial;
     }
 }
