@@ -58,7 +58,6 @@
                     </a>
                     </div>
                 </div>
-
                 <div class="col-md-8 text-center col-xs-8 cpn">
 
 
@@ -75,41 +74,41 @@
                             <div class="centered-pills">
                                 <ul class="nav nav-pills">
                                     <li>
-                                        <a href="overview">
+                                        <a href="<?php echo site_url('/website/overview') ?>">
                                       OVERVIEW
                                        <div class="half-circle"></div>
                                        </a>
 
                                     </li>
                                     <li>
-                                        <a>
+                                        <a >
                                       ROOMS
                                        <div class="half-circle"></div>
                                        </a>
 
                                     </li>
                                     <li>
-                                        <a>
+                                        <a   href="<?php echo site_url('/website/amenities') ?>">
                                        AMENITIES
                                         <div class="half-circle"></div>
                                     </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a  href="#">
                                       GALLERY
                                        <div class="half-circle"></div>
                                       </a>
 
                                     </li>
                                     <li>
-                                        <a>
+                                        <a  href="<?php echo site_url('/website/explore') ?>">
                                        EXPLORE PHOENIX MARKETCITY
                                         <div class="half-circle"></div>
                                        </a>
 
                                     </li>
                                     <li>
-                                        <a>
+                                        <a  href="<?php echo site_url('/website/contact') ?>">
                                       CONTACT US
                                        <div class="half-circle"></div>
                                       </a>
