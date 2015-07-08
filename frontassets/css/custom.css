@@ -21,19 +21,10 @@ form.form-inline.footer-form button:focus {
     border-color: #aaaaaa;
 }
 
-
 .ftr-head ul li {
     list-style: none;
 }
 
-form.form-inline.footer-form input {
-    background-color: transparent;
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    width: 100%;
-}
 
 .contactform textarea {
     width: 100%;
@@ -63,9 +54,18 @@ form.form-inline.footer-form input {
     box-shadow: 0px 0px 0px;
 }
 
+.ftr-head h5 {
+    color: #aaaaaa;
+    font-weight: 500;
+    font-family: Josefin Sans;
+    margin: 0;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
 .ftr-head h4 {
     color: #aaaaaa;
-    font-weight: 100;
+    font-weight: 500;
     font-family: Josefin Sans;
     margin: 0;
     margin-bottom: 6px;
@@ -77,15 +77,15 @@ form.form-inline.footer-form input {
 }
 
 form.form-inline.footer-form input {
-    background-color: transparent;
-    color: #aaaaaa;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    width: 100%;
-    border-color: #353535;
+  background-color: transparent;
+  color: #aaaaaa;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+  border-color: #353535;
+  font-family: Josefin Sans;
 }
-
 form.form-inline.footer-form button {
     background: #353535;
     color: #aaaaaa;

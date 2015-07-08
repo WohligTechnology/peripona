@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="ftr-head">
-                    <h4>NEWSLETTER SIGNUP</h4>
+                    <h5>NEWSLETTER SIGNUP</h5>
                     <form class="form-inline footer-form">
                         <div class="form-group text-main">
                             <input type="text" class="form-control" id="" placeholder="Enter Email Address">
