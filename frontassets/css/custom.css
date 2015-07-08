@@ -289,16 +289,19 @@ p.explore-plast {
     transition: all 300ms ease;
 }
 
-.nav-pills>li>a:hover {
+.nav-pills>li>a:hover , .nav-pills>li>a.active {
     color: #fff;
     border-bottom: 1px solid #fff;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
-.nav-pills>li>a:hover .half-circle {
+.nav-pills>li>a.active .half-circle {
     height: 10px;
     width: 23px;
     border-radius: 90px 90px 0 0;
@@ -313,5 +316,8 @@ p.explore-plast {
     -o-transform: translatex(-50%);
     transform: translatex(-50%);
     bottom: -11px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
