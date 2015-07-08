@@ -178,4 +178,30 @@ Hotel</li>
             </div>
         </div>
     </div>
+    <div class="row mrg">
+        <div class="col-md-offset-3 col-md-6">
+            <div class="col-md-6">
+               <div class="col-md-6">
+                <div class="cal">
+                    <p>check in</p>
+                    <p class="date">12</p>
+                    <p class="date-bold">SEPTEMBER ’15</p>
+                </div>
+                </div>
+                  <div class="col-md-6">
+               <div class="cal">
+                    <p>check in</p>
+                    <p class="date">17</p>
+                    <p class="date-bold">OCTOBER ’15</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <a href="">CHECK AVAILABILITY</a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
 </div>

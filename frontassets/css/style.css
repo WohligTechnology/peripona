@@ -305,3 +305,41 @@ width: 100%;
 .margin-tp {
     margin-top: 40px;
 }
+.cal {
+    text-align: center;
+}
+
+.cal p {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+p.date {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+p.date-bold {
+    font-weight: 900;
+    font-family: 'Josefin Sans';
+    font-size: 13px;
+}
+.box {
+    background-color: #5e5e5e;
+    text-align: center;
+    padding: 60px 25px 60px 26px;
+    margin-top: -17px;
+}
+
+.box a {
+    color: #fff;
+    background-color: #e30613;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+}
+.row.mrg {
+    margin: 80px auto;
+}
