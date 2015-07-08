@@ -221,6 +221,22 @@ width: 100%;
      transform: translatex(-50%);
      bottom: -10px;
 }
+.mini-circle{
+     height: 10px;
+     width: 23px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 0px 0px 90px 90px;
+     background: #e30613;
+     position: absolute;
+     left: 50%;
+     -webkit-transform: translatex(-50%);
+     -moz-transform: translatex(-50%);
+     -ms-transform: translatex(-50%);
+     -o-transform: translatex(-50%);
+     transform: translatex(-50%);
+     bottom: -18px;
+}
 .contact-bk {
     position: relative;
 }
@@ -261,4 +277,19 @@ width: 100%;
 .overview-cont.text-center p {
     font-size: 17px;
     font-weight: 600;
+}
+.bath-set span {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+}
+
+.bath-set.text-center {
+    margin-bottom: 15px;
+    padding: 0px;
+    position: relative;
+}
+.bath-set img {
+    padding-bottom: 10px;
 }
