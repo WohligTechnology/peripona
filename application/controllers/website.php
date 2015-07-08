@@ -20,7 +20,12 @@ class Website extends CI_Controller
 	{
 		$data["page"]="gallery";
         $this->load->view("frontend",$data);
-	}   
+	}  
+      public function room()
+	{
+		$data["page"]="room";
+        $this->load->view("frontend",$data);
+	} 
        public function amenities()
 	{
 		$data["page"]="amenities";
