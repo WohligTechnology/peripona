@@ -109,6 +109,16 @@
     .ftr-head.footer-last {
         padding-top: 25px;
     }
+    .overview-cont p {
+        font-size: 15px;
+    }
+    .overview-cont {
+        padding: 25px 0;
+    }
+    .navbar-collapse.in {
+        overflow-y: auto;
+        min-height: 220px;
+    }
 }
 
 @media screen and (max-width: 766px) {
