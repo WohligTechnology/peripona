@@ -84,11 +84,11 @@
             <div class="flexslider">
   <ul class="slides">
     <li >
-     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>"><img src="<?php echo base_url('frontassets/image//gallery/gallery4.jpg'); ?>" /></a> 
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/gallery/gallery4.jpg'); ?>"><img src="<?php echo base_url('frontassets/image/gallery/gallery4.jpg'); ?>" /></a> 
     </li>
     <li>
-     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>">
-      <img src="<?php echo base_url('frontassets/image//gallery/gallery5.jpg'); ?>" />
+     <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/gallery/gallery5.jpg'); ?>">
+      <img src="<?php echo base_url('frontassets/image/gallery/gallery5.jpg'); ?>" />
         </a>
     </li>
     <li>

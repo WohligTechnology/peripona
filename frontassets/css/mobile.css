@@ -78,6 +78,10 @@
     .pad-tp {
         padding-top: 5px;
     }
+    .navbar-collapse.collapse.thin ul li a {
+        height: auto;
+        padding: 10px 0;
+    }
 }
 
 @media screen and (max-width: 1224px) {
@@ -85,7 +89,23 @@
         padding: 10px 9px;
         font-size: 12px;
     }
+    .logo img {
+        width: 100%;
+    }
+    .navbar-collapse.collapse.thin ul li a {
+        font-size: 10px;
+        padding: 3px 4px 0 0px;
+        height: 25px;
+    }
+    .nav-pills>li>a:hover .half-circle {
+        width: 20px;
+    }
+    .ftr-head.footer-last {
+        padding-top: 25px;
+    }
 }
+
+@media (min-width: 768px) {}
 
 @media screen and (max-width: 766px) {
     .logo img {
