@@ -467,14 +467,19 @@ img.right {
 }
 .room-side h1{
     color: white;
- padding-top: 80px;
+ padding-top: 55px;
   font-weight: lighter;
+    font-size: 38px;
 }
 
+.wrap-btn{
+    padding-top:30px;
+}
 .room-side p{
-      color: white;
+      color: #bcbcbc;
   padding: 0 45px;
     text-align: justify;
+    font-size: 14px;
 }
 .room-side img {
     width: 100%;
@@ -490,14 +495,16 @@ img.right {
   border: none;
     position: relative;
   border-bottom: 1px solid white;
+     font-size: 15px;
+  padding: 1px 0;
 }
 .enter-btn:focus{
     outline: none;
 }
 .all-btns{
-    height: 10px;
-    width: 23px;
-    top:23px;
+     height: 6px;
+  width: 14px;
+  top: 24px;
     border-radius: 90px 90px 0 0;
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 0px 0px 110px 110px;
