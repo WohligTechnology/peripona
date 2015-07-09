@@ -432,6 +432,10 @@ img.right {
   bottom: 20px;
   display: none !important;
 }
+
+.mt40{
+    margin-top:40px;
+}
 .room-side {
     width: 100%;
     height: 400px;
@@ -439,10 +443,25 @@ img.right {
     display: block;
     text-align: center;
 /*    margin: 0px 0px 0px 30px;*/
-    background: url(../image/rooms-page.jpg);
     background-size: 100% 100%;
+    
 }
-
+.ati{
+    background: url(../image/rooms-page.jpg);
+      background-repeat-y: no-repeat;
+}
+.maya{
+   background: url(../image/rooms-page3.jpg);
+     background-repeat-y: no-repeat;
+}
+.nunya{
+   background: url(../image/rooms-page4.jpg); 
+      background-repeat-y: no-repeat;
+}
+.roop{
+   background: url(../image/roop.jpg); 
+      background-repeat-y: no-repeat;
+}
 .col-md-3.padding0,.col-md-9.padding0{
     padding: 0;
 }
