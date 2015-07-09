@@ -1,5 +1,5 @@
-body {
-    font-family: 'Josefin Sans', 'Questrial', 'Maven Pro' sans-serif;
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Josefin Sans', 'Questrial', 'Maven Pro' sans-serif!important;
 }
 
 a {
@@ -437,10 +437,61 @@ img.right {
     height: 400px;
     overflow: hidden;
     display: block;
-    margin: 0px 0px 0px 30px;
+    text-align: center;
+/*    margin: 0px 0px 0px 30px;*/
+    background: url(../image/rooms-page.jpg);
+    background-size: 100% 100%;
 }
 
+.col-md-3.padding0,.col-md-9.padding0{
+    padding: 0;
+}
+.room-side h1{
+    color: white;
+ padding-top: 80px;
+  font-weight: lighter;
+}
+
+.room-side p{
+      color: white;
+  padding: 0 45px;
+    text-align: justify;
+}
 .room-side img {
     width: 100%;
     height: 400px;
+}
+
+.room2{
+    display: none;
+}
+.enter-btn{
+    background: transparent;
+  color: white;
+  border: none;
+    position: relative;
+  border-bottom: 1px solid white;
+}
+.enter-btn:focus{
+    outline: none;
+}
+.all-btns{
+    height: 10px;
+    width: 23px;
+    top:23px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 0px 0px 110px 110px;
+    background: #e30613;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
