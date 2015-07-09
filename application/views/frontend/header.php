@@ -81,7 +81,7 @@
 
                                     </li>
                                     <li>
-                                        <a >
+                                         <a <?php if($active=='room'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/room') ?>">
                                       ROOMS
                                        <div class="half-circle"></div>
                                        </a>
