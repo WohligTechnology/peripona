@@ -432,3 +432,15 @@ img.right {
   bottom: 20px;
   display: none !important;
 }
+.room-side {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+    margin: 0px 0px 0px 30px;
+}
+
+.room-side img {
+    width: 100%;
+    height: 400px;
+}

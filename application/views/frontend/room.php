@@ -14,7 +14,7 @@
 <div class="row">
    <div class="col-md-3">
        <div class="room-side">
-           
+           <img src="<?php echo base_url('frontassets/image/room1.png'); ?>" class="img-responsive">
        </div>
    </div>
    <div class="col-md-9">
