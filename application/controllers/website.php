@@ -5,16 +5,23 @@ class Website extends CI_Controller
 {
 	public function index( )
 	{
-		$data["page"]="contact";
-         $data['active']="contact";
+		$data["page"]="home";
+         $data['active']="home";
 //        $data["category"]=$this->category_model->getcategorytree(0);
 //        print_r($data["category"]);
-        $this->load->view("frontend",$data);
+        $this->load->view("frontend2",$data);
 	}
     public function overview()
 	{
 		$data["page"]="overview";
         $data['active']="overview";
+        $this->load->view("frontend",$data);
+	}
+    
+    public function contact()
+	{
+		$data["page"]="contact";
+        $data['active']="contact";
         $this->load->view("frontend",$data);
 	}
     

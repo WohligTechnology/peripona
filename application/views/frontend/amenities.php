@@ -190,7 +190,7 @@
                 </div>
                 <div class="col-xs-6">
                     <div class="cal">
-                        <p>check in</p>
+                        <p>check Out</p>
                         <p class="date">17</p>
                         <p class="date-bold">OCTOBER ’15</p>
                     </div>
@@ -202,6 +202,5 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
