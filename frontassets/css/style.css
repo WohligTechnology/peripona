@@ -3,10 +3,12 @@ body {
 }
 
 a {
-    text-decoration: none;
+  color: #fff !important;
+  text-decoration: none;
 }
 
 a:hover {
+    color: #fff !important;
     text-decoration: none;
 }
 
@@ -18,12 +20,10 @@ a:hover {
     color: #fff;
 }
 
-a:hover,
-a:focus {
-    color: #1295C9;
-    text-decoration: none;
+a:hover, a:focus {
+  color: #fff !important;
+  text-decoration: none;
 }
-
 .login {
     padding-top: 15px;
 }
@@ -102,13 +102,15 @@ footer.foot-main {
 
 .ftr-head {
     line-height: 100%;
+    font-weight: 400;
 }
 
 .foot-main ul>li>a {
-    color: #aaaaaa;
+    color: #aaaaaa !important;
     line-height: 26px;
     text-decoration: none;
     font-family: 'Josefin Sans';
+    font-weight: 500;
 }
 
 .text-footer-link p {
@@ -116,7 +118,7 @@ footer.foot-main {
 }
 
 .text-footer-link p a {
-    color: #aaaaaa;
+    color: #aaaaaa !important;
     text-decoration: none;
 }
 
@@ -292,7 +294,7 @@ header a {
 
 .overview-cont.text-center p {
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .bath-set span {
@@ -313,8 +315,8 @@ header a {
 }
 
 .ul-list ul {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -332,7 +334,7 @@ header a {
 
 .cal p {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 100%;
 }
 

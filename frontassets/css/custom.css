@@ -1,5 +1,5 @@
 p {
-    font-family: Josefin Sans Light;
+    font-family: 'Josefin Sans';
 }
 
 .overview-cont {
@@ -7,10 +7,11 @@ p {
 }
 
 .overview-cont p {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
     margin: 0;
     font-size: 17px;
+    text-align: center;
 }
 
 .text-footer-link {
@@ -32,7 +33,7 @@ form.form-inline.footer-form button:focus {
     border-color: #ddd;
     padding: 5px 10px;
     font-size: 14px;
-    font-family: Josefin Sans Light;
+    font-family: 'Josefin Sans';
     font-weight: 600;
 }
 
@@ -42,7 +43,7 @@ form.form-inline.footer-form button:focus {
     border-radius: 0px;
     min-height: 35px;
     text-transform: uppercase;
-    font-family: Josefin Sans Light;
+    font-family: 'Josefin Sans';
     font-weight: 600;
 }
 
@@ -146,8 +147,8 @@ form.form-inline.footer-form .form-group {
     border-color: #666666;
     padding: 5px 10px;
     font-size: 18px;
-    font-family: Josefin Sans Light;
-    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
 }
 
 .contactform input {
@@ -156,8 +157,8 @@ form.form-inline.footer-form .form-group {
     border-radius: 0px;
     min-height: 45px;
     text-transform: uppercase;
-    font-family: Josefin Sans Light;
-    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
     font-size: 18px;
     border-color: #666666;
     color: #000;
@@ -190,7 +191,8 @@ form.form-inline.footer-form .form-group {
     padding: 14px 100px;
     text-transform: uppercase;
     color: #000;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: 'Josefin Sans';
 }
 
 .send {
@@ -228,7 +230,7 @@ form.form-inline.footer-form .form-group {
 }
 
 .explore p {
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 30px;
     text-align: center;
     font-size: 17px;
@@ -239,8 +241,8 @@ form.form-inline.footer-form .form-group {
 }
 
 h3.header-explr {
-    font-family: Josefin Sans Light;
-    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
     padding-bottom: 15px;
     padding-top: 10px;
 }
@@ -250,10 +252,10 @@ h3.header-explr {
 }
 
 h3.explore-down {
-    font-family: Josefin Sans Light;
+    font-family: 'Josefin Sans';
     padding-bottom: 50px;
     color: #e30613;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p.explore-plast {
@@ -270,10 +272,12 @@ p.explore-plast {
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+/*
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 0.5s ease;
+*/
     height: 35px;
 }
 
@@ -283,10 +287,12 @@ p.explore-plast {
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+/*
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+*/
 }
 
 .nav-pills>li>a:hover,
@@ -296,10 +302,10 @@ p.explore-plast {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .nav-pills>li>a.active .half-circle,
@@ -318,8 +324,14 @@ p.explore-plast {
     -o-transform: translatex(-50%);
     transform: translatex(-50%);
     bottom: -11px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 0px !important;
+  margin: 0px 10px !important;
 }

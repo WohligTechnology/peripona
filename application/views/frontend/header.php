@@ -73,8 +73,8 @@
                         <div class="navbar-collapse collapse thin">
                             <div class="centered-pills">
                                 <ul class="nav nav-pills">
-                                    <li>
-                                        <a href="<?php echo site_url('/website/overview') ?>">
+                                    <li >
+                                        <a <?php if($active=='overview'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/overview') ?>">
                                       OVERVIEW
                                        <div class="half-circle"></div>
                                        </a>
@@ -88,27 +88,27 @@
 
                                     </li>
                                     <li>
-                                        <a   href="<?php echo site_url('/website/amenities') ?>">
+                                        <a  <?php if($active=='amenities'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/amenities') ?>">
                                        AMENITIES
                                         <div class="half-circle"></div>
                                     </a>
                                     </li>
                                     <li>
-                                        <a  href="#">
+                                        <a  >
                                       GALLERY
                                        <div class="half-circle"></div>
                                       </a>
 
                                     </li>
                                     <li>
-                                        <a  href="<?php echo site_url('/website/explore') ?>">
+                                        <a <?php if($active=='explore'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/explore') ?>">
                                        EXPLORE PHOENIX MARKETCITY
                                         <div class="half-circle"></div>
                                        </a>
 
                                     </li>
                                     <li>
-                                        <a  href="<?php echo site_url('/website/contact') ?>">
+                                        <a <?php if($active=='contact'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/contact') ?>">
                                       CONTACT US
                                        <div class="half-circle"></div>
                                       </a>

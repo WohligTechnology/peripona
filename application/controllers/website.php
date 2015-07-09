@@ -6,6 +6,7 @@ class Website extends CI_Controller
 	public function index( )
 	{
 		$data["page"]="contact";
+         $data['active']="contact";
 //        $data["category"]=$this->category_model->getcategorytree(0);
 //        print_r($data["category"]);
         $this->load->view("frontend",$data);
@@ -13,6 +14,7 @@ class Website extends CI_Controller
     public function overview()
 	{
 		$data["page"]="overview";
+        $data['active']="overview";
         $this->load->view("frontend",$data);
 	}
     
@@ -29,12 +31,14 @@ class Website extends CI_Controller
        public function amenities()
 	{
 		$data["page"]="amenities";
+        $data['active']="amenities";
         $this->load->view("frontend",$data);
 	}   
     
     public function explore()
 	{
 		$data["page"]="explore";
+         $data['active']="explore";
         $this->load->view("frontend",$data);
 	}
     public function detail( )
