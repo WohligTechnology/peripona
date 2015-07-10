@@ -227,8 +227,8 @@ header a {
 .mini-circle {
     height: 11px;
     width: 23px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
     position: absolute;
@@ -240,7 +240,15 @@ header a {
     transform: translatex(-50%);
     bottom: -19px;
 }
-
+.med-circle {
+    height: 18px;
+    width: 35px;
+    border-radius:0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
+    -webkit-border-radius: 0px 0px 90px 90px;
+    background: #e30613;
+    margin: -3px auto;
+}
 .contact-bk {
     position: relative;
 }
@@ -312,6 +320,7 @@ header a {
     font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 .ul-list {
@@ -518,4 +527,58 @@ img.right {
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+}
+p.pad-top {
+    margin: 25px auto !important;
+}
+.acc.text-center span {
+    font-weight: 100;
+    border-bottom: 2px solid #000;
+    font-size: 36px;
+}
+.bath-room span {
+    font-size: 40px;
+    font-weight: 400;
+}
+.ul-lists {
+    font-size: 17px;
+    margin: 0px 0px 0px -18px;
+}
+.ul-lists ul li span {
+    color: #000;
+    font-size: 17px;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.ul-lists ul li {
+    color: #e30613;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.inner-img {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.inner-img img {
+    height: 240px;
+    width: 100%;
+}
+.row.galleryin {
+    margin: 68px auto;
+}
+.rowgalleryout {
+    margin-top: 40px;
+}
+.booknow.text-center a {
+    color: #fff;    background-color: #e30613;    
+    padding: 10px 70px;    text-decoration: none;    font-family: 'Josefin Sans';    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.row.booknowbt {
+    margin-top: 38px;
+    margin-bottom: 80px;
 }
