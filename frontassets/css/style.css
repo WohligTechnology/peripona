@@ -211,23 +211,17 @@ header a {
     border-bottom: 3px solid;
     padding-bottom: 5px;
     font-size: 2.5vw;
+    margin: 0px;
 }
 
 .circle {
     height: 20px;
     width: 40px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
-    bottom: -10px;
+    margin: 0px auto;
 }
 
 .mini-circle {
@@ -416,23 +410,17 @@ p.date-bold {
   opacity: .5;
 }
 img.left {
-   position: absolute;
-  bottom: 9px;
-  right: 60px;
-  height: 45px;
-  width: 45px;
-  background-color: black;
-  padding: 6px 12px;
+    position: absolute;
+    bottom: 9px;
+    right: 49px;
+    height: 32px;
 }
 
 img.right {
     position: absolute;
     bottom: 9px;
     right: 11px;
-      height: 45px;
-  width: 45px;
-  background-color: black;
-  padding: 6px 12px;
+    height: 32px;
 }
 .carousel-indicators {
   bottom: 20px;
@@ -453,22 +441,22 @@ img.right {
     
 }
 .ati{
-    background: url(../image/rooms1.jpg);
+    background: url(../image/rooms-page.jpg);
       background-repeat-y: no-repeat;
     background-size: cover;
 }
 .maya{
-   background: url(../image/rooms2.jpg);
+   background: url(../image/rooms-page3.jpg);
      background-repeat-y: no-repeat;
     background-size: cover;
 }
 .nunya{
-   background: url(../image/rooms3.jpg); 
+   background: url(../image/rooms-page4.jpg); 
       background-repeat-y: no-repeat;
     background-size: cover;
 }
 .roop{
-   background: url(../image/rooms4.jpg); 
+   background: url(../image/roop.jpg); 
       background-repeat-y: no-repeat;
     background-size: cover;
 }
@@ -477,7 +465,7 @@ img.right {
 }
 .room-side h1{
     color: white;
-/* padding-top: 55px;*/
+ padding-top: 55px;
   font-weight: lighter;
     font-size: 38px;
 }
@@ -491,12 +479,10 @@ img.right {
     text-align: justify;
     font-size: 14px;
 }
-/*
 .room-side img {
     width: 100%;
     height: 400px;
 }
-*/
 
 .room2{
     display: none;
