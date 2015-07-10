@@ -416,17 +416,23 @@ p.date-bold {
   opacity: .5;
 }
 img.left {
-    position: absolute;
-    bottom: 9px;
-    right: 49px;
-    height: 32px;
+   position: absolute;
+  bottom: 9px;
+  right: 60px;
+  height: 45px;
+  width: 45px;
+  background-color: black;
+  padding: 6px 12px;
 }
 
 img.right {
     position: absolute;
     bottom: 9px;
     right: 11px;
-    height: 32px;
+      height: 45px;
+  width: 45px;
+  background-color: black;
+  padding: 6px 12px;
 }
 .carousel-indicators {
   bottom: 20px;
@@ -447,22 +453,22 @@ img.right {
     
 }
 .ati{
-    background: url(../image/rooms-page.jpg);
+    background: url(../image/rooms1.jpg);
       background-repeat-y: no-repeat;
     background-size: cover;
 }
 .maya{
-   background: url(../image/rooms-page3.jpg);
+   background: url(../image/rooms2.jpg);
      background-repeat-y: no-repeat;
     background-size: cover;
 }
 .nunya{
-   background: url(../image/rooms-page4.jpg); 
+   background: url(../image/rooms3.jpg); 
       background-repeat-y: no-repeat;
     background-size: cover;
 }
 .roop{
-   background: url(../image/roop.jpg); 
+   background: url(../image/rooms4.jpg); 
       background-repeat-y: no-repeat;
     background-size: cover;
 }
@@ -471,7 +477,7 @@ img.right {
 }
 .room-side h1{
     color: white;
- padding-top: 55px;
+/* padding-top: 55px;*/
   font-weight: lighter;
     font-size: 38px;
 }
@@ -485,10 +491,12 @@ img.right {
     text-align: justify;
     font-size: 14px;
 }
+/*
 .room-side img {
     width: 100%;
     height: 400px;
 }
+*/
 
 .room2{
     display: none;
