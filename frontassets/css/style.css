@@ -350,7 +350,6 @@ header a {
 }
 
 p.date {
-    font-weight: 700;
     font-size: 60px;
 }
 
@@ -552,7 +551,7 @@ img.right {
     border: none;
     position: relative;
     border-bottom: 1px solid white;
-    font-size: 15px;
+    font-size: 17px;
     padding: 1px 0;
 }
 
@@ -563,7 +562,7 @@ img.right {
 .all-btns {
     height: 6px;
     width: 14px;
-    top: 24px;
+    top: 27px;
     border-radius: 90px 90px 0 0;
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 0px 0px 110px 110px;
