@@ -440,8 +440,6 @@ img.left {
     background-color: black;
     padding: 6px 12px;
 
-    right: 49px;
-    height: 32px;
 
 }
 
@@ -455,7 +453,7 @@ img.right {
     background-color: black;
     padding: 6px 12px;
 
-    height: 32px;
+   
 
 }
 
@@ -502,27 +500,6 @@ img.right {
     background: url(../image/rooms4.jpg);
     background-repeat-y: no-repeat;
 }
-.ati{
-    background: url(../image/rooms-page.jpg);
-      background-repeat-y: no-repeat;
-    background-size: cover;
-}
-.maya{
-   background: url(../image/rooms-page3.jpg);
-     background-repeat-y: no-repeat;
-    background-size: cover;
-}
-.nunya{
-   background: url(../image/rooms-page4.jpg); 
-      background-repeat-y: no-repeat;
-    background-size: cover;
-}
-.roop{
-   background: url(../image/roop.jpg); 
-      background-repeat-y: no-repeat;
-
-    background-size: cover;
-}
 
 .col-md-3.padding0,
 .col-md-9.padding0 {
@@ -533,12 +510,7 @@ img.right {
     color: white;
 
     /* padding-top: 55px;*/
-    
-    font-weight: lighter;
-
- padding-top: 55px;
   font-weight: lighter;
-origin/master
     font-size: 38px;
 }
 
@@ -563,10 +535,12 @@ origin/master
     color: #bcbcbc;
     text-align: left;
 }
+/*
 .room-side img {
     width: 100%;
     height: 400px;
 }
+*/
 
 .room2 {
     display: none;
