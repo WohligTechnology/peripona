@@ -219,30 +219,24 @@ header a {
     border-bottom: 3px solid;
     padding-bottom: 5px;
     font-size: 2.5vw;
+    margin: 0px;
 }
 
 .circle {
     height: 20px;
     width: 40px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
-    bottom: -10px;
+    margin: 0px auto;
 }
 
 .mini-circle {
     height: 11px;
     width: 23px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
     position: absolute;
@@ -254,7 +248,15 @@ header a {
     transform: translatex(-50%);
     bottom: -19px;
 }
-
+.med-circle {
+    height: 18px;
+    width: 35px;
+    border-radius:0px 0px 90px 90px;
+    -moz-border-radius: 0px 0px 90px 90px;
+    -webkit-border-radius: 0px 0px 90px 90px;
+    background: #e30613;
+    margin: -3px auto;
+}
 .contact-bk {
     position: relative;
 }
@@ -326,6 +328,7 @@ header a {
     font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 .ul-list {
@@ -430,21 +433,30 @@ p.date-bold {
 img.left {
     position: absolute;
     bottom: 9px;
+<<<<<<< HEAD
     right: 60px;
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
+=======
+    right: 49px;
+    height: 32px;
+>>>>>>> origin/master
 }
 
 img.right {
     position: absolute;
     bottom: 9px;
     right: 11px;
+<<<<<<< HEAD
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
+=======
+    height: 32px;
+>>>>>>> origin/master
 }
 
 .carousel-indicators {
@@ -466,6 +478,7 @@ img.right {
     
     background-size: 100% 100%;
 }
+<<<<<<< HEAD
 
 .ati {
     background: url(../image/rooms1.jpg);
@@ -488,6 +501,26 @@ img.right {
 .roop {
     background: url(../image/rooms4.jpg);
     background-repeat-y: no-repeat;
+=======
+.ati{
+    background: url(../image/rooms-page.jpg);
+      background-repeat-y: no-repeat;
+    background-size: cover;
+}
+.maya{
+   background: url(../image/rooms-page3.jpg);
+     background-repeat-y: no-repeat;
+    background-size: cover;
+}
+.nunya{
+   background: url(../image/rooms-page4.jpg); 
+      background-repeat-y: no-repeat;
+    background-size: cover;
+}
+.roop{
+   background: url(../image/roop.jpg); 
+      background-repeat-y: no-repeat;
+>>>>>>> origin/master
     background-size: cover;
 }
 
@@ -498,9 +531,14 @@ img.right {
 
 .room-side h1 {
     color: white;
+<<<<<<< HEAD
     /* padding-top: 55px;*/
     
     font-weight: lighter;
+=======
+ padding-top: 55px;
+  font-weight: lighter;
+>>>>>>> origin/master
     font-size: 38px;
 }
 
@@ -525,12 +563,10 @@ img.right {
     color: #bcbcbc;
     text-align: left;
 }
-/*
 .room-side img {
     width: 100%;
     height: 400px;
 }
-*/
 
 .room2 {
     display: none;
@@ -569,4 +605,61 @@ img.right {
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+}
+p.pad-top {
+    margin: 25px auto !important;
+}
+.acc.text-center span {
+    font-weight: 100;
+    border-bottom: 2px solid #000;
+    font-size: 36px;
+}
+.bath-room span {
+    font-size: 40px;
+    font-weight: 400;
+}
+.ul-lists {
+    font-size: 17px;
+    margin: 0px 0px 0px -18px;
+}
+.ul-lists ul li span {
+    color: #000;
+    font-size: 17px;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.ul-lists ul li {
+    color: #e30613;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.inner-img {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.inner-img img {
+    height: 240px;
+    width: 100%;
+}
+.row.galleryin {
+    margin: 68px auto;
+}
+.rowgalleryout {
+    margin-top: 40px;
+}
+.booknow.text-center a {
+    color: #fff;    background-color: #e30613;    
+    padding: 10px 70px;    text-decoration: none;    font-family: 'Josefin Sans';    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.row.booknowbt {
+    margin-top: 38px;
+    margin-bottom: 80px;
+}
+.box a:hover {
+    text-decoration: none;
 }
