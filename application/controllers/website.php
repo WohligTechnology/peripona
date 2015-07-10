@@ -35,6 +35,11 @@ class Website extends CI_Controller
 		$data["page"]="room";
         $this->load->view("frontend",$data);
 	} 
+        public function roomdetail()
+	{
+		$data["page"]="roomdetail";
+        $this->load->view("frontend",$data);
+	} 
        public function amenities()
 	{
 		$data["page"]="amenities";
