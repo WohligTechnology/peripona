@@ -433,8 +433,8 @@ img.right {
   display: none !important;
 }
 
-.mt40{
-    margin-top:40px;
+.mt50{
+    margin-top:50px;
 }
 .room-side {
     width: 100%;
@@ -449,18 +449,22 @@ img.right {
 .ati{
     background: url(../image/rooms-page.jpg);
       background-repeat-y: no-repeat;
+    background-size: cover;
 }
 .maya{
    background: url(../image/rooms-page3.jpg);
      background-repeat-y: no-repeat;
+    background-size: cover;
 }
 .nunya{
    background: url(../image/rooms-page4.jpg); 
       background-repeat-y: no-repeat;
+    background-size: cover;
 }
 .roop{
    background: url(../image/roop.jpg); 
       background-repeat-y: no-repeat;
+    background-size: cover;
 }
 .col-md-3.padding0,.col-md-9.padding0{
     padding: 0;

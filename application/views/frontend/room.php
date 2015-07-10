@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-     <div class="row mt40">
+     <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side maya">
                 <h1>maya</h1>
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-     <div class="row mt40">
+     <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side nunya">
                 <h1>nunya</h1>
@@ -176,7 +176,7 @@
             </div>
         </div>
     </div>
-     <div class="row mt40">
+     <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side roop">
                 <h1>roop</h1>
