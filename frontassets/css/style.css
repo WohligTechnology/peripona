@@ -582,3 +582,6 @@ p.pad-top {
     margin-top: 38px;
     margin-bottom: 80px;
 }
+.box a:hover {
+    text-decoration: none;
+}
