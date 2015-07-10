@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="col-md-9 padding0">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -55,11 +55,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="prev">
+                <a class=" carousel-controls" href="#myCarousel-1" role="button" data-slide="prev">
   <img class="left" src="<?php echo base_url('frontassets/image/left.jpg'); ?>" alt="Flower">
 
   </a>
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="next">
+                <a class=" carousel-controls" href="#myCarousel-1" role="button" data-slide="next">
    <img class="right" src="<?php echo base_url('frontassets/image/right.jpg'); ?>" alt="Flower">
 <!--    <span class="sr-only">Next</span>-->
   </a>
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="col-md-9 padding0">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -110,11 +110,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="prev">
+                <a class=" carousel-controls" href="#myCarousel-2" role="button" data-slide="prev">
   <img class="left" src="<?php echo base_url('frontassets/image/left.jpg'); ?>" alt="Flower">
 
   </a>
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="next">
+                <a class=" carousel-controls" href="#myCarousel-2" role="button" data-slide="next">
    <img class="right" src="<?php echo base_url('frontassets/image/right.jpg'); ?>" alt="Flower">
 <!--    <span class="sr-only">Next</span>-->
   </a>
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="col-md-9 padding0">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -165,11 +165,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="prev">
+                <a class=" carousel-controls" href="#myCarousel-3" role="button" data-slide="prev">
   <img class="left" src="<?php echo base_url('frontassets/image/left.jpg'); ?>" alt="Flower">
 
   </a>
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="next">
+                <a class=" carousel-controls" href="#myCarousel-3" role="button" data-slide="next">
    <img class="right" src="<?php echo base_url('frontassets/image/right.jpg'); ?>" alt="Flower">
 <!--    <span class="sr-only">Next</span>-->
   </a>
@@ -189,7 +189,7 @@
             </div>
         </div>
         <div class="col-md-9 padding0">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel-4" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -220,11 +220,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="prev">
+                <a class=" carousel-controls" href="#myCarousel-4" role="button" data-slide="prev">
   <img class="left" src="<?php echo base_url('frontassets/image/left.jpg'); ?>" alt="Flower">
 
   </a>
-                <a class=" carousel-controls" href="#myCarousel" role="button" data-slide="next">
+                <a class=" carousel-controls" href="#myCarousel-4" role="button" data-slide="next">
    <img class="right" src="<?php echo base_url('frontassets/image/right.jpg'); ?>" alt="Flower">
 <!--    <span class="sr-only">Next</span>-->
   </a>
