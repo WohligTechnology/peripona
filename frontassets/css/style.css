@@ -433,30 +433,30 @@ p.date-bold {
 img.left {
     position: absolute;
     bottom: 9px;
-<<<<<<< HEAD
+
     right: 60px;
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
-=======
+
     right: 49px;
     height: 32px;
->>>>>>> origin/master
+
 }
 
 img.right {
     position: absolute;
     bottom: 9px;
     right: 11px;
-<<<<<<< HEAD
+
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
-=======
+
     height: 32px;
->>>>>>> origin/master
+
 }
 
 .carousel-indicators {
@@ -478,7 +478,7 @@ img.right {
     
     background-size: 100% 100%;
 }
-<<<<<<< HEAD
+
 
 .ati {
     background: url(../image/rooms1.jpg);
@@ -501,7 +501,7 @@ img.right {
 .roop {
     background: url(../image/rooms4.jpg);
     background-repeat-y: no-repeat;
-=======
+}
 .ati{
     background: url(../image/rooms-page.jpg);
       background-repeat-y: no-repeat;
@@ -520,7 +520,7 @@ img.right {
 .roop{
    background: url(../image/roop.jpg); 
       background-repeat-y: no-repeat;
->>>>>>> origin/master
+
     background-size: cover;
 }
 
@@ -531,14 +531,14 @@ img.right {
 
 .room-side h1 {
     color: white;
-<<<<<<< HEAD
+
     /* padding-top: 55px;*/
     
     font-weight: lighter;
-=======
+
  padding-top: 55px;
   font-weight: lighter;
->>>>>>> origin/master
+origin/master
     font-size: 38px;
 }
 
