@@ -128,6 +128,7 @@ footer.foot-main {
 .text-footer-link p a {
     color: #aaaaaa !important;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .content.menu-main {
@@ -473,6 +474,12 @@ img.right {
     text-align: center;
     /*    margin: 0px 0px 0px 30px;*/
     
+    -webkit-background-size: 100% 100%;
+    
+    -moz-background-size: 100% 100%;
+    
+    -o-background-size: 100% 100%;
+    
     background-size: 100% 100%;
 }
 
@@ -480,18 +487,27 @@ img.right {
 .ati {
     background: url(../image/rooms1.jpg);
     background-repeat-y: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .maya {
     background: url(../image/rooms2.jpg);
     background-repeat-y: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .nunya {
     background: url(../image/rooms3.jpg);
     background-repeat-y: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 

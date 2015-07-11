@@ -59,7 +59,7 @@ form.form-inline.footer-form button:focus {
     font-size: 14px;
 }
 
-form.form-inline.footer-form input {
+.input-text input {
     background-color: transparent;
     color: #aaaaaa;
     -webkit-border-radius: 0px;
@@ -70,7 +70,7 @@ form.form-inline.footer-form input {
     font-family: Josefin Sans;
 }
 
-form.form-inline.footer-form button {
+form.footer-form button {
     background: #353535;
     color: #aaaaaa;
     -webkit-border-radius: 0px;
@@ -83,16 +83,32 @@ form.form-inline.footer-form button {
     text-shadow: none;
 }
 
-form.form-inline.footer-form input:focus {
+.input-text {
+    width: 81%;
+    float: left;
+}
+
+.button-text {
+    text-align: left;
+}
+
+.input-text input:focus {
     border-color: #aaaaaa;
     -webkit-box-shadow: 0px 0px 0px;
     -moz-box-shadow: 0px 0px 0px;
     box-shadow: 0px 0px 0px;
 }
 
-form.form-inline.footer-form .form-group {
-    width: 80%;
+form.footer-form .form-group {
     border-color: #353535;
+}
+
+form.footer-form .col-xs-8 {
+    padding: 0;
+}
+
+form.footer-form .col-xs-2 {
+    padding: 0px;
 }
 
 .pull-right.footer-icons i {
