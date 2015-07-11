@@ -58,7 +58,7 @@
                     </a>
                     </div>
                 </div>
-                <div class="col-md-8 text-center col-xs-8 cpn">
+                <div class="col-md-8 text-center col-xs-12 cpn">
                     <nav class="navbar navbar-default" role="navigation">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -80,7 +80,7 @@
                                     <li>
                                         <a <?php if($active=='room' ){ echo "class='active'"; } ?> href="<?php echo site_url('/website/room') ?>">
                                       ROOMS
-                                       <div class="half-circle"></div>
+<!--                                       <div class="half-circle"></div>-->
                                        </a>
 
                                     </li>

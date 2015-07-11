@@ -58,7 +58,7 @@
                         <img src="<?php echo base_url('frontassets/image/logo.png'); ?>">
                     </div>
                 </div>
-                <div class="col-md-8 text-center col-xs-8 cpn">
+                <div class="col-md-8 text-center col-xs-12 cpn">
 
 
                     <nav class="navbar navbar-default" role="navigation">
@@ -76,7 +76,7 @@
                                     <li >
                                         <a <?php if($active=='overview'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/overview') ?>">
                                       OVERVIEW
-                                       <div class="half-circle"></div>
+                               <div class="half-circle"></div>        
                                        </a>
 
                                     </li>
