@@ -26,13 +26,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-5 col-sm-6 amenities-block">
-            <div class="bath-room">
+        <div class="col-md-offset-1 col-md-5 col-sm-6 ">
+          
+<div class="amenities-block ul-lists">
+                <h1>bathroom</h1>
 
-                <span>bathroom</span>
 
-            </div>
-            <div class="ul-lists">
+        
                 <ul style="list-style-type:disc">
                     <li><span>Forest Essentials™ Luxurious Ayurveda Bath Amenities</span>
                     </li>
@@ -46,15 +46,15 @@
                     </li>
 
                 </ul>
-            </div>
+           </div>
         </div>
-        <div class="col-md-offset-1 col-md-5 col-sm-6 amenities-block">
-            <div class="bath-room">
+        <div class="col-md-offset-1 col-md-5 col-sm-6">
+           <div class="amenities-block ul-lists">
 
-                <span>room amenities & services</span>
+                <h1>room amenities & services</h1>
 
-            </div>
-            <div class="ul-lists">
+         
+        
                 <ul style="list-style-type:disc">
                     <li><span>Personalized Wake-Up Service (On Request)</span>
                     </li>
@@ -76,13 +76,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-5 col-sm-6  amenities-block">
-            <div class="bath-room">
+        <div class="col-md-offset-1 col-md-5 col-sm-6 ">
+            <div class="amenities-block ul-lists">
 
-                <span>bed features</span>
+                <h1>bed features</h1>
 
-            </div>
-            <div class="ul-lists">
+        
+          
                 <ul style="list-style-type:disc">
                     <li><span>Welspun™ Duvet & Bedding</span>
                     </li>
@@ -91,13 +91,13 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-offset-1 col-md-5 col-sm-6 amenities-block">
-            <div class="bath-room">
+        <div class="col-md-offset-1 col-md-5 col-sm-6">
+        
+    <div class="amenities-block ul-lists">
+                <h1>entertainment</h1>
 
-                <span>entertainment</span>
-
-            </div>
-            <div class="ul-lists">
+      
+           
                 <ul style="list-style-type:disc">
                     <li><span>42-Inch Flat Screen 3D LCD TV</span>
                     </li>
@@ -110,13 +110,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-5 col-sm-6 amenities-block">
-            <div class="bath-room">
+        <div class="col-md-offset-1 col-md-5 col-sm-6 ">
+    <div class="amenities-block ul-lists">
 
-                <span>internet access</span>
+                <h1>internet access</h1>
 
-            </div>
-            <div class="ul-lists">
+        
+        
                 <ul style="list-style-type:disc">
                     <li><span> Free Wireless High Speed Internet Access</span>
                     </li>
