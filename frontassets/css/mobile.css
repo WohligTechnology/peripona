@@ -90,6 +90,19 @@
     }
 }
 
+@media screen and (max-width: 992px) {
+    .make-contain {
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .home-mades {
+        padding: 0px;
+    }
+    .wlcm-dsgn {
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 1224px) {
     .box a {
         padding: 10px 9px;
@@ -119,17 +132,17 @@
         overflow-y: auto;
         min-height: 220px;
     }
-     
-   
 }
-@media screen and (max-width: 991px){
-    .room-side{
-        height:auto;
+
+@media screen and (max-width: 991px) {
+    .room-side {
+        height: auto;
     }
-    .wrap-btn{
+    .wrap-btn {
         padding-bottom: 35px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .logo img {
         width: 200px;
@@ -145,11 +158,10 @@
     .col-sm-6.amenities-block {
         min-height: initial;
     }
-    .room-side{
-        height:auto;
+    .room-side {
+        height: auto;
     }
-    .room-side h1{
+    .room-side h1 {
         padding-top: 65px;
     }
-    
 }

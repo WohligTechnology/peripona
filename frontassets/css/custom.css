@@ -26,36 +26,18 @@ form.form-inline.footer-form button:focus {
     list-style: none;
 }
 
-.contactform textarea {
-    width: 100%;
-    min-height: 85px;
-    text-transform: uppercase;
-    border-color: #ddd;
-    padding: 5px 10px;
-    font-size: 14px;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-}
-
 .content.menu-main.header2 {
-    background: rgba(0, 0, 0, 0.3) !important;
-}
-
-.contactform input {
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    min-height: 35px;
-    text-transform: uppercase;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-}
-
-.contactform input:focus {
-    border-color: #ddd;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.39) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.78)), color-stop(1%, rgba(0, 0, 0, 0.78)), color-stop(100%, rgba(221, 221, 221, 0.39)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.39) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.39) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(1%, rgba(0, 0, 0, 0.78)), to(rgba(221, 221, 221, 0.2)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.2) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.2) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.2) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.78) 1%, rgba(221, 221, 221, 0.2) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#dddddd', GradientType=0);
+    min-height: 600px;
 }
 
 .ftr-head h5 {
@@ -74,10 +56,7 @@ form.form-inline.footer-form button:focus {
     margin: 0;
     margin-bottom: 6px;
     text-transform: uppercase;
-}
-
-.ftr-head ul li {
-    list-style: none;
+    font-size: 14px;
 }
 
 form.form-inline.footer-form input {
@@ -111,10 +90,6 @@ form.form-inline.footer-form input:focus {
     box-shadow: 0px 0px 0px;
 }
 
-form.form-inline.footer-form button:focus {
-    border-color: #aaaaaa;
-}
-
 form.form-inline.footer-form .form-group {
     width: 80%;
     border-color: #353535;
@@ -122,7 +97,7 @@ form.form-inline.footer-form .form-group {
 
 .pull-right.footer-icons i {
     font-size: 24px;
-    color: #464646;
+    color: #464646 !important;
 }
 
 .footer-icons i.fa.fa-twitter {
@@ -131,7 +106,6 @@ form.form-inline.footer-form .form-group {
 
 .pull-right.footer-icons i.fa.fa-facebook {
     padding-right: 13px;
-    color: #464646;
 }
 
 .pull-right.footer-icons {
@@ -376,13 +350,13 @@ p.explore-plast {
 .row.mrg.home-date {
     position: absolute;
     width: 100%;
-    bottom: -51px;
+    bottom: -58px;
     margin: 0px;
 }
 
 .col-md-6.col-sm-6.home-checkin {
     background: #fff;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .row.mrg.home-date .box {
@@ -446,20 +420,18 @@ img.img-responsive.img-horse {
 }
 
 .make-contain {
-    position: absolute;
-    top: 245px;
-    width: 100%;
+    margin-top: -50px;
 }
 
 .home-mades {
-    position: relative;
-    min-height: 750px;
+    padding-bottom: 35px;
 }
 
 .wlcm-dsgn h4 {
     text-align: center;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 400;
+    color: #131313;
 }
 
 .wlcm-dsgn img {
@@ -467,11 +439,20 @@ img.img-responsive.img-horse {
 }
 
 .wlcm-dsgn p {
-    text-align: justify;
+    display: -webkit-box;
+    height: 115px;
+    margin: 0 auto;
     font-size: 17px;
-    line-height: 120%;
+    line-height: 1.4;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
     font-weight: 500;
     margin-bottom: 20px;
+    color: #797979;
+    text-align: left;
 }
 
 button.explore {
@@ -481,8 +462,8 @@ button.explore {
     box-shadow: 0 0 0;
     border: 2px solid #000;
     color: #000;
-    font-weight: 700;
-    padding: 2px 10px;
+    font-weight: 600;
+    padding: 5px 15px 3px 15px;
 }
 
 .wlcm-dsgn {
@@ -491,4 +472,8 @@ button.explore {
 
 button.explore:focus {
     outline: 0px;
+}
+
+.pull-right.footer-icons i:hover {
+    color: #fff!important;
 }

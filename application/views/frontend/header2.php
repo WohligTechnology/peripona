@@ -49,12 +49,13 @@
 
 <body style="margin:0px">
    <div class="main-header2">
+   <div class="gradient"></div>
     <div class="content menu-main header2">
         <header class="container">
             <div class="row">
                 <div class="col-md-4 col-xs-4">
                     <div class="logo">
-                        <a href="#/home">
+                        <a href="<?php echo site_url('/#') ?>">
                         <img src="<?php echo base_url('frontassets/image/logo.png'); ?>">
                     </a>
                     </div>
