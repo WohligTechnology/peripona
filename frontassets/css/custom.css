@@ -391,10 +391,15 @@ button.explore:hover {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: transparent!important;
+    border-color: transparent!important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff!important;
+}
+
+.navbar-default .navbar-toggle{
+border: 0px;
 }
 
 .col-md-6.col-sm-6.box-home .box {
