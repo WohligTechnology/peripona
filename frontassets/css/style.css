@@ -9,12 +9,12 @@ h6 {
 }
 
 a {
-    color: #fff !important;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #fff !important;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -219,8 +219,9 @@ header a {
 .contact-text h1 {
     border-bottom: 3px solid;
     padding-bottom: 5px;
-    font-size: 2.5vw;
+    font-size: 40px;
     margin: 0px;
+    letter-spacing: 2px;
 }
 
 .circle {
@@ -249,15 +250,17 @@ header a {
     transform: translatex(-50%);
     bottom: -19px;
 }
+
 .med-circle {
     height: 18px;
     width: 35px;
-    border-radius:0px 0px 90px 90px;
+    border-radius: 0px 0px 90px 90px;
     -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
     margin: -3px auto;
 }
+
 .contact-bk {
     position: relative;
 }
@@ -433,28 +436,21 @@ p.date-bold {
 img.left {
     position: absolute;
     bottom: 9px;
-
     right: 60px;
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
-
-
 }
 
 img.right {
     position: absolute;
     bottom: 9px;
     right: 11px;
-
     height: 45px;
     width: 45px;
     background-color: black;
     padding: 6px 12px;
-
-   
-
 }
 
 .carousel-indicators {
@@ -475,14 +471,10 @@ img.right {
     /*    margin: 0px 0px 0px 30px;*/
     
     -webkit-background-size: 100% 100%;
-    
     -moz-background-size: 100% 100%;
-    
     -o-background-size: 100% 100%;
-    
     background-size: 100% 100%;
 }
-
 
 .ati {
     background: url(../image/rooms1.jpg);
@@ -512,8 +504,11 @@ img.right {
 }
 
 .roop {
-    background: url(../image/rooms4.jpg);
-    background-repeat-y: no-repeat;
+    background: url(../image/rooms4.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .col-md-3.padding0,
@@ -523,9 +518,9 @@ img.right {
 
 .room-side h1 {
     color: white;
-
     /* padding-top: 55px;*/
-  font-weight: lighter;
+    
+    font-weight: lighter;
     font-size: 38px;
 }
 
@@ -548,7 +543,7 @@ img.right {
     font-weight: 500;
     margin-bottom: 20px;
     color: #bcbcbc;
-    text-align: left;
+    text-align: justify;
 }
 /*
 .room-side img {
@@ -578,39 +573,37 @@ img.right {
 .all-btns {
     height: 6px;
     width: 14px;
-    top: 27px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 110px 110px;
+    -moz-border-radius: 0px 0px 110px 110px;
     -webkit-border-radius: 0px 0px 110px 110px;
     background: #e30613;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    margin: 0px auto;
 }
+
 p.pad-top {
     margin: 25px auto !important;
 }
+
 .acc.text-center span {
     font-weight: 100;
     border-bottom: 2px solid #000;
     font-size: 36px;
 }
+
 .bath-room span {
     font-size: 40px;
     font-weight: 400;
 }
+
 .ul-lists {
     font-size: 17px;
     margin: 0px 0px 0px -18px;
 }
+
 .ul-lists ul li span {
     color: #000;
     font-size: 17px;
@@ -623,6 +616,7 @@ p.pad-top {
     font-size: 12px;
     vertical-align: middle;
 }
+
 .inner-img {
     width: 100%;
     height: 240px;
@@ -633,15 +627,22 @@ p.pad-top {
     height: 240px;
     width: 100%;
 }
+
 .row.galleryin {
     margin: 68px auto;
 }
+
 .rowgalleryout {
     margin-top: 40px;
 }
+
 .booknow.text-center a {
-    color: #fff;    background-color: #e30613;    
-    padding: 10px 70px;    text-decoration: none;    font-family: 'Josefin Sans';    font-weight: 700;
+    color: #fff;
+    background-color: #e30613;
+    padding: 10px 70px;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -649,6 +650,13 @@ p.pad-top {
     margin-top: 38px;
     margin-bottom: 80px;
 }
+
 .box a:hover {
     text-decoration: none;
+}
+
+.send.text-center a:hover {
+    color: #fff;
+    background-color: #000;
+    border: #000;
 }

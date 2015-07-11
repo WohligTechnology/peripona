@@ -14,13 +14,13 @@
     <div class="row">
         <div class="col-md-3 padding0">
             <div class="room-side ati">
-               <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
+                <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
                 <h1>ati</h1>
                 <p>The tasteful, monochrome Ati Corridor has manifestations of the elegant and rich Kolam Rice art, or 'Rangolee'adorning it. Black inlaid on gray, alternating with white stripes, the composition is dense and intricate, quint.</p>
                 <div class="wrap-btn">
                     <button class="button enter-btn">ENTER
-                        <div class="all-btns"></div>
                     </button>
+                    <div class="all-btns"></div>
                 </div>
             </div>
         </div>
@@ -67,16 +67,16 @@
             </div>
         </div>
     </div>
-     <div class="row mt50">
+    <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side maya">
-               <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
+                <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
                 <h1>maya</h1>
                 <p>Traveling along the Maya Corridor transports you to a vibrant world true to its mystical name. The centerpiece of the seven (7) rooms located within is a stunning lenticular Tanjore panel painting, spanning the length.</p>
                 <div class="wrap-btn">
                     <button class="button enter-btn">ENTER
-                        <div class="all-btns"></div>
                     </button>
+                    <div class="all-btns"></div>
                 </div>
             </div>
         </div>
@@ -123,16 +123,16 @@
             </div>
         </div>
     </div>
-     <div class="row mt50">
+    <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side nunya">
-               <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
+                <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
                 <h1>nunya</h1>
                 <p>The Nunya Corridor gives testament to the power and beauty of simplicity. Finished in off-white laminate, the passageway features a mirror at the end, giving an illusion of an infinity corridor that conditions the senses.</p>
                 <div class="wrap-btn">
                     <button class="button enter-btn">ENTER
-                        <div class="all-btns"></div>
                     </button>
+                    <div class="all-btns"></div>
                 </div>
             </div>
         </div>
@@ -179,16 +179,16 @@
             </div>
         </div>
     </div>
-     <div class="row mt50">
+    <div class="row mt50">
         <div class="col-md-3 padding0">
             <div class="room-side roop">
-               <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
+                <img src="<?php echo base_url('frontassets/image/header.png'); ?>">
                 <h1>roop</h1>
                 <p>The Roop Corridor serves as a modern take on the Thousand Pillars of the Madurai Temple, where Tamil art & literature flourished for generations. The six (6) enchanting rooms are designed in the same rhythmic flow bringing the joy of dance.</p>
                 <div class="wrap-btn">
                     <button class="button enter-btn">ENTER
-                        <div class="all-btns"></div>
                     </button>
+                    <div class="all-btns"></div>
                 </div>
             </div>
         </div>

@@ -132,6 +132,7 @@ form.footer-form .col-xs-2 {
     font-size: 11px;
     text-align: right;
     line-height: 70%;
+    color: #aaaaaa !important;
 }
 
 .contactform textarea {
@@ -305,24 +306,42 @@ p.explore-plast {
 
 .nav-pills>li>a.active .half-circle,
 .nav-pills>li>a:hover .half-circle {
+    opacity: 1;
+}
+
+.nav-pills>li>a .half-circle {
     height: 10px;
     width: 23px;
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
+    border-radius: 0px 0px 110px 110px;
+    -moz-border-radius: 0px 0px 110px 110px;
     -webkit-border-radius: 0px 0px 110px 110px;
     background: #e30613;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
-    bottom: -11px;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    opacity: 0;
+    margin: 7px auto;
+}
+
+.nav-pills>li:hover .half-circle,
+.nav-pills>li .half-circle {
+    opacity: 1;
+}
+
+.nav-pills>li> .half-circle {
+    height: 10px;
+    width: 23px;
+    border-radius: 0px 0px 110px 110px;
+    -moz-border-radius: 0px 0px 110px 110px;
+    -webkit-border-radius: 0px 0px 110px 110px;
+    background: #e30613;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    margin: 7px auto;
 }
 
 .nav>li>a {
@@ -359,15 +378,13 @@ p.explore-plast {
 }
 
 .homebg-text h2 {
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: 3px;
 }
 
 .row.mrg.home-date {
-    position: absolute;
     width: 100%;
-    bottom: -58px;
-    margin: 0px;
+    margin-top: -89px;
 }
 
 .col-md-6.col-sm-6.home-checkin {
@@ -379,8 +396,35 @@ p.explore-plast {
     margin: 0;
 }
 
+.box a:hover {
+    background-color: #D80915;
+}
+
+.foot-main ul>li>a:hover {
+    color: #fff!important;
+}
+
+.text-footer-link p a:hover {
+    color: #fff!important;
+}
+
+button.explore:hover {
+    border: 2px solid #000;
+    color: #FFF;
+    background-color: #000;
+}
+
 .col-md-6.col-sm-6.box-home {
     padding: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff!important;
 }
 
 .col-md-6.col-sm-6.box-home .box {
@@ -392,7 +436,7 @@ p.explore-plast {
 }
 
 .home-welcm {
-    padding: 130px 0 60px 0px;
+    padding: 60px 0 60px 0px;
     text-align: center;
     font-family: Josefin Sans Light;
 }
@@ -414,7 +458,7 @@ p.explore-plast {
 }
 
 .home-welcm h1 {
-    padding: 50px 0 0 0;
+    padding: 40px 0 20px 0;
 }
 
 .wel-cm {

@@ -55,9 +55,7 @@
             <div class="row">
                 <div class="col-md-4 col-xs-4">
                     <div class="logo">
-                        <a href="<?php echo site_url('/#') ?>">
                         <img src="<?php echo base_url('frontassets/image/logo.png'); ?>">
-                    </a>
                     </div>
                 </div>
                 <div class="col-md-8 text-center col-xs-8 cpn">
@@ -96,7 +94,7 @@
                                     </a>
                                     </li>
                                     <li>
-                                        <a  >
+                                                      <a  <?php if($active=='gallery'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/gallery') ?>">
                                       GALLERY
                                        <div class="half-circle"></div>
                                       </a>

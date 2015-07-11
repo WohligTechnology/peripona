@@ -28,11 +28,13 @@ class Website extends CI_Controller
     public function gallery()
 	{
 		$data["page"]="gallery";
+        $data['active']="gallery";
         $this->load->view("frontend",$data);
 	}  
       public function room()
 	{
 		$data["page"]="room";
+        $data['active']="room";
         $this->load->view("frontend",$data);
 	} 
         public function roomdetail()

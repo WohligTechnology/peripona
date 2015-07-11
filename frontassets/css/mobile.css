@@ -10,14 +10,73 @@
         margin-top: 30px;
         text-align: center;
     }
+    .conct-head h1 {
+        font-size: 24px;
+    }
+    .contactform input {
+        min-height: 38px;
+        font-size: 16px;
+    }
+    .room-side h1 {
+        font-size: 36px;
+    }
+    .room-side h1 {
+        padding-top: 0px;
+        margin: 0;
+    }
+    .bath-room {
+        text-align: center;
+    }
     .map {
         margin-top: 30px;
     }
     .contactform {
         padding: 5px 0;
     }
+    img.left,
+    img.right {
+        height: 35px;
+        width: 35px;
+    }
+    .overview-cont h2 {
+        font-size: 24px;
+    }
     .send {
         padding: 25px 0px 25px 0;
+    }
+    .wrap-btn {
+        padding-bottom: 20px;
+    }
+    .wrap-btn {
+        padding-top: 5px;
+    }
+    .room-side p {
+        margin-bottom: 0;
+        height: auto;
+    }
+    .col-sm-6.amenities-block {
+        min-height: inherit;
+    }
+    .ul-list {
+        margin: 25px auto;
+    }
+    .acc.text-center span {
+        font-size: 28px;
+    }
+    .row.galleryin {
+        margin: 25px auto;
+    }
+    .homebg-text h2 {
+        font-size: 26px;
+    }
+    .contact-text h1 {
+        font-size: 24px;
+    }
+    .row.mrg {
+        margin: 40px auto;
+    }
+    .bath-room span {
+        font-size: 26px;
     }
     .content.menu-main {
         background: #000;
@@ -35,7 +94,6 @@
     .circle {
         height: 14px;
         width: 25px;
-        bottom: -4px;
     }
     .ftr-head.footer-last {
         padding: 0px;
@@ -54,8 +112,15 @@
         padding-right: 0px;
         padding-bottom: 20px;
     }
+    p.date {
+        font-size: 40px;
+    }
     .explore p {
         font-size: 15px;
+        text-align: justify;
+    }
+    .wlcm-dsgn h4 {
+        font-size: 36px;
     }
     .box {
         padding: 25px 0px;
@@ -76,6 +141,7 @@
     }
     .overview-cont.text-center p {
         font-size: 15px;
+        padding: 0px 20px;
     }
     .container.footer-menu {
         margin: 10px auto;
@@ -87,6 +153,28 @@
         height: auto !important;
         padding: 10px 0 !important;
         font-size: 13px;
+    }
+    .ftr-head.footer-last {
+        padding-top: 0px !important;
+        margin-bottom: 10px;
+    }
+    .pull-right.footer-icons {
+        text-align: center;
+        padding: 0 0 10px 0px;
+    }
+    .col-md-6.col-sm-6.home-checkin {
+        background: #fff;
+        padding: 15px 0;
+        height: 120px;
+    }
+    .row.mrg.home-date {
+        margin-top: -120px;
+    }
+    .row.galleryout .col-sm-6 {
+        padding: 0px 20px!important;
+    }
+    .row.galleryout .col-sm-12 {
+        padding: 0px 20px!important;
     }
 }
 
@@ -101,6 +189,16 @@
     .wlcm-dsgn {
         padding-bottom: 20px;
     }
+    .row.mrg.home-date {
+        width: 80%;
+        margin-top: -120px;
+    }
+    .row.galleryout .col-sm-6 {
+        padding: 0px;
+    }
+    .row.galleryout .col-sm-12 {
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width: 1224px) {
@@ -108,8 +206,24 @@
         padding: 10px 9px;
         font-size: 12px;
     }
-    .logo img {
-        width: 100%;
+    .room-side {
+        height: 332px;
+    }
+    .nav-pills>li>a .half-circle {
+        margin: 1px auto;
+    }
+    .room-side h1 {
+        margin: 0px;
+    }
+    .room-side p {
+        margin: 0px;
+        padding: 0 30px;
+    }
+    .wrap-btn {
+        padding-top: 10px;
+    }
+    .bath-set span {
+        font-size: 18px;
     }
     .navbar-collapse.collapse.thin ul li a {
         font-size: 10px;
@@ -124,6 +238,7 @@
     }
     .overview-cont p {
         font-size: 15px;
+        text-align: justify;
     }
     .overview-cont {
         padding: 25px 0;
@@ -147,6 +262,12 @@
     }
 }
 
+@media screen and (max-width: 380px) {
+    p.date-bold {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .logo img {
         width: 200px;
@@ -154,6 +275,10 @@
     .input-text {
         width: 84%;
         float: left;
+    }
+    .row.mrg.home-date {
+        width: 90%;
+        margin-top: -120px;
     }
     .circle {
         height: 10px;
@@ -165,11 +290,5 @@
     }
     .col-sm-6.amenities-block {
         min-height: initial;
-    }
-    .room-side {
-        height: auto;
-    }
-    .room-side h1 {
-        padding-top: 65px;
     }
 }
