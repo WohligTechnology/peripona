@@ -26,16 +26,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
     <!--    <script src="<?php echo base_url("frontassets");?>/js/jquery-1.11.1.min.js"></script>-->
-    <script src="<?php echo base_url(" frontassets ");?>/js/jquery.flexslider.js"></script>
-    <script src="<?php echo base_url(" frontassets ");?>/fancy/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="<?php echo base_url("frontassets");?>/js/jquery.flexslider.js"></script>
+    <script src="<?php echo base_url("frontassets");?>/fancy/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
     <link rel="stylesheet" href="<?php echo base_url('frontassets/fancy/helpers/jquery.fancybox-buttons.css?v=1.0.5'); ?>" type="text/css" media="screen" />
-    <script type="text/javascript" src="<?php echo base_url(" frontassets ");?>/fancy/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="<?php echo base_url(" frontassets ");?>/fancy/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="<?php echo base_url("frontassets");?>/fancy/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="<?php echo base_url("frontassets");?>/fancy/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
     <link rel="stylesheet" href="<?php echo base_url('frontassets/fancy/helpers/jquery.fancybox-thumbs.css?v=1.0.7'); ?>" type="text/css" media="screen" />
-    <script type="text/javascript" src="<?php echo base_url(" frontassets ");?>/fancy/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="<?php echo base_url("frontassets");?>/fancy/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
@@ -59,8 +59,6 @@
                     </div>
                 </div>
                 <div class="col-md-8 text-center col-xs-8 cpn">
-
-
                     <nav class="navbar navbar-default" role="navigation">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,8 +74,8 @@
                                     <li>
                                         <a <?php if($active=='overview' ){ echo "class='active'"; } ?> href="<?php echo site_url('/website/overview') ?>">
                                       OVERVIEW
+                                          <div class="half-circle"></div>
                                        </a>
-                                        <div class="half-circle"></div>
                                     </li>
                                     <li>
                                         <a <?php if($active=='room' ){ echo "class='active'"; } ?> href="<?php echo site_url('/website/room') ?>">

@@ -263,18 +263,21 @@ p.explore-plast {
 
 .navbar-collapse.collapse.thin ul li a {
     position: relative;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    /*
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 0.5s ease;
-*/
-    
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    border-bottom: 1px solid transparent;
     height: 35px;
+}
+
+.nav-pills>li>a:hover,
+.nav-pills>li>a.active {
+    color: #fff;
+    border-color: #fff!important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
 }
 
 .nav-pills>li>a>half-circle {
@@ -291,45 +294,12 @@ p.explore-plast {
 */
 }
 
-.nav-pills>li>a:hover,
-.nav-pills>li>a.active {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-}
-
 .nav-pills>li>a.active .half-circle,
 .nav-pills>li>a:hover .half-circle {
     opacity: 1;
 }
 
 .nav-pills>li>a .half-circle {
-    height: 10px;
-    width: 23px;
-    border-radius: 0px 0px 110px 110px;
-    -moz-border-radius: 0px 0px 110px 110px;
-    -webkit-border-radius: 0px 0px 110px 110px;
-    background: #e30613;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    opacity: 0;
-    margin: 7px auto;
-}
-
-.nav-pills>li:hover .half-circle,
-.nav-pills>li .half-circle {
-    opacity: 1;
-}
-
-.nav-pills>li> .half-circle {
     height: 10px;
     width: 23px;
     border-radius: 0px 0px 110px 110px;

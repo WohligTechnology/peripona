@@ -241,14 +241,7 @@ header a {
     -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
-    bottom: -19px;
+    margin: 7px auto;
 }
 
 .med-circle {

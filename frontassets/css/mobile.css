@@ -27,6 +27,9 @@
     .bath-room {
         text-align: center;
     }
+    .row.margin-tp {
+        margin-top: 0px;
+    }
     .map {
         margin-top: 30px;
     }
@@ -187,7 +190,7 @@
         padding: 0px;
     }
     .wlcm-dsgn {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     .row.mrg.home-date {
         width: 80%;
@@ -221,6 +224,9 @@
     }
     .wrap-btn {
         padding-top: 10px;
+    }
+    .row.mrg .col-xs-6 {
+        padding: 0px;
     }
     .bath-set span {
         font-size: 18px;
