@@ -76,43 +76,43 @@
                                     <li >
                                         <a <?php if($active=='overview'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/overview') ?>">
                                       OVERVIEW
-                               <div class="half-circle"></div>        
+                                   
                                        </a>
-
+  <div class="half-circle"></div>  
                                     </li>
                                     <li>
                                          <a  <?php if($active=='room'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/room') ?>">
                                       ROOMS
-                                       <div class="half-circle"></div>
-                                       </a>
-
+                                        </a>
+  <div class="half-circle"></div>  
                                     </li>
                                     <li>
                                         <a  <?php if($active=='amenities'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/amenities') ?>">
                                        AMENITIES
-                                        <div class="half-circle"></div>
+                                       
                                     </a>
+                                     <div class="half-circle"></div>
                                     </li>
                                     <li>
                                                       <a  <?php if($active=='gallery'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/gallery') ?>">
                                       GALLERY
-                                       <div class="half-circle"></div>
+                                      
                                       </a>
-
+ <div class="half-circle"></div>
                                     </li>
                                     <li>
                                         <a <?php if($active=='explore'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/explore') ?>">
                                        EXPLORE PHOENIX MARKETCITY
-                                        <div class="half-circle"></div>
+                                       
                                        </a>
-
+ <div class="half-circle"></div>
                                     </li>
                                     <li>
                                         <a <?php if($active=='contact'){ echo "class='active'"; } ?> href="<?php echo site_url('/website/contact') ?>">
                                       CONTACT US
-                                       <div class="half-circle"></div>
+                                     
                                       </a>
-
+  <div class="half-circle"></div>
                                     </li>
                                 </ul>
                             </div>

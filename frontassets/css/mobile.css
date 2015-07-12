@@ -13,6 +13,12 @@
     .conct-head h1 {
         font-size: 24px;
     }
+    .col-md-8.text-center.col-xs-12.cpn {
+        z-index: 1;
+    }
+    .navbar-collapse.collapse.thin {
+  background-color: rgba(0, 0, 0, 0.7);
+}
     .contactform input {
         min-height: 38px;
         font-size: 16px;
@@ -152,11 +158,6 @@
     .pad-tp {
         padding-top: 5px;
     }
-    .navbar-collapse.collapse.thin ul li a {
-        height: auto !important;
-        padding: 10px 0 !important;
-        font-size: 13px;
-    }
     .ftr-head.footer-last {
         padding-top: 0px !important;
         margin-bottom: 10px;
@@ -178,6 +179,9 @@
     }
     .row.galleryout .col-sm-12 {
         padding: 0px 20px!important;
+    }
+    .col-md-8.text-center.col-xs-12.cpn {
+        margin-top: -45px;
     }
 }
 
@@ -231,11 +235,6 @@
     .bath-set span {
         font-size: 18px;
     }
-    .navbar-collapse.collapse.thin ul li a {
-        font-size: 10px;
-        padding: 3px 4px 0 0px;
-        height: 25px;
-    }
     .nav-pills>li>a:hover .half-circle {
         width: 20px;
     }
@@ -277,6 +276,9 @@
 @media screen and (max-width: 480px) {
     .logo img {
         width: 200px;
+    }
+    .col-md-8.text-center.col-xs-12.cpn {
+        margin-top: -38px;
     }
     .input-text {
         width: 84%;

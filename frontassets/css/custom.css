@@ -262,17 +262,16 @@ p.explore-plast {
 }
 
 .navbar-collapse.collapse.thin ul li a {
-    position: relative;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     border-bottom: 1px solid transparent;
-    height: 35px;
+/*    height: 35px;*/
 }
 
-.nav-pills>li>a:hover,
-.nav-pills>li>a.active {
+.nav-pills>li:hover a,
+.nav-pills>li.active a{
     color: #fff;
     border-color: #fff!important;
     -webkit-border-radius: 0px;
@@ -280,26 +279,12 @@ p.explore-plast {
     border-radius: 0px;
 }
 
-.nav-pills>li>a>half-circle {
-    position: relative;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    /*
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-*/
-}
-
-.nav-pills>li>a.active .half-circle,
-.nav-pills>li>a:hover .half-circle {
+.nav-pills>li.active .half-circle,
+.nav-pills>li:hover .half-circle {
     opacity: 1;
 }
 
-.nav-pills>li>a .half-circle {
+.nav-pills>li>.half-circle {
     height: 10px;
     width: 23px;
     border-radius: 0px 0px 110px 110px;
@@ -311,7 +296,7 @@ p.explore-plast {
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     opacity: 0;
-    margin: 7px auto;
+    margin: 0px auto;
 }
 
 .nav>li>a {
@@ -398,8 +383,8 @@ button.explore:hover {
     background-color: #fff!important;
 }
 
-.navbar-default .navbar-toggle{
-border: 0px;
+.navbar-default .navbar-toggle {
+    border: 0px;
 }
 
 .col-md-6.col-sm-6.box-home .box {
