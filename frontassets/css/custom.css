@@ -261,17 +261,21 @@ p.explore-plast {
     min-height: 295px;
 }
 
+.nav-pills>li.active>a {
+    background: transparent!important;
+}
+
 .navbar-collapse.collapse.thin ul li a {
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     border-bottom: 1px solid transparent;
-/*    height: 35px;*/
+    /*    height: 35px;*/
 }
 
 .nav-pills>li:hover a,
-.nav-pills>li.active a{
+.nav-pills>li.active a {
     color: #fff;
     border-color: #fff!important;
     -webkit-border-radius: 0px;
