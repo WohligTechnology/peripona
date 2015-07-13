@@ -6,7 +6,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container maku">
     <div class="row">
         <div class="overview-cont line-hgt">
             <p>
@@ -19,9 +19,8 @@
 
             <div class="acc text-center">
                 <span>ACCOMMODATIONS</span>
-                <div class="med-circle">
-
-                </div>
+            </div>
+            <div class="med-circle">
             </div>
         </div>
     </div>
@@ -144,9 +143,8 @@
     <div class="row galleryin">
         <div class="acc text-center">
             <span>GALLERY</span>
-            <div class="med-circle">
-
-            </div>
+        </div>
+        <div class="med-circle">
         </div>
     </div>
     <div class="row galleryout">

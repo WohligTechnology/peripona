@@ -251,7 +251,11 @@ header a {
     -moz-border-radius: 0px 0px 90px 90px;
     -webkit-border-radius: 0px 0px 90px 90px;
     background: #e30613;
-    margin: -3px auto;
+    margin: 0px auto;
+}
+
+.booknow.text-center a:hover {
+    background-color: #D1121E;
 }
 
 .contact-bk {
@@ -641,6 +645,10 @@ p.pad-top {
     font-family: 'Josefin Sans';
     font-weight: 700;
     text-transform: uppercase;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .row.booknowbt {
