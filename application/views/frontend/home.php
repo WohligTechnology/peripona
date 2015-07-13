@@ -3,6 +3,7 @@
 </div>
 
 </div>
+<!--
 <div class="row mrg home-date">
     <div class="col-md-offset-3 col-md-6">
         <div class="col-md-6 col-sm-6 home-checkin">
@@ -30,6 +31,7 @@
         </div>
     </div>
 </div>
+-->
 <div class="home-welcm">
     <div class="line-circle">
         <div class="hm-circle"></div>
