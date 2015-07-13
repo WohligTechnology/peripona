@@ -356,9 +356,12 @@ p.explore-plast {
 }
 
 .box a:hover {
-    background-color: #D80915;
+    background-color: #D1121E;
 }
-
+a.enter-btn:hover
+{
+    text-decoration: none;
+}
 .foot-main ul>li>a:hover {
     color: #fff!important;
 }
@@ -367,10 +370,11 @@ p.explore-plast {
     color: #fff!important;
 }
 
-button.explore:hover {
+a.explore:hover {
     border: 2px solid #000;
     color: #FFF;
     background-color: #000;
+    text-decoration: none;
 }
 
 .col-md-6.col-sm-6.box-home {
@@ -479,22 +483,28 @@ img.img-responsive.img-horse {
     text-align: left;
 }
 
-button.explore {
+a.explore {
     background: transparent;
     -webkit-box-shadow: 0 0 0;
     -moz-box-shadow: 0 0 0;
     box-shadow: 0 0 0;
     border: 2px solid #000;
     color: #000;
+    text-decoration: none;
     font-weight: 600;
     padding: 5px 15px 3px 15px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
 }
 
 .wlcm-dsgn {
     text-align: center;
 }
 
-button.explore:focus {
+a.explore:focus {
     outline: 0px;
 }
 

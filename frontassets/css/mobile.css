@@ -17,8 +17,8 @@
         z-index: 1;
     }
     .navbar-collapse.collapse.thin {
-  background-color: rgba(0, 0, 0, 0.7);
-}
+        background-color: rgba(0, 0, 0, 0.7);
+    }
     .contactform input {
         min-height: 38px;
         font-size: 16px;
