@@ -191,11 +191,12 @@
     .container.maku {
         padding: 0px 35px;
     }
-/*
+    /*
     .med-circle {
         margin: -3px auto;
     }
 */
+    
     .wel-cm p {
         text-align: justify;
     }
@@ -211,6 +212,9 @@
     .make-contain {
         margin-top: 0px;
         padding-top: 20px;
+    }
+    .explore-img {
+        min-height: 200px;
     }
     .home-mades {
         padding: 0px;
