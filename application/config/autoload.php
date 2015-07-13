@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session','form_validation','cart','csvreader','pagination','chintantable');
 
 
 /*
@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('user_model','menu_model','category_model','martyr_model','message_model','ministry_model','regiment_model','subcategory_model','navigation_model');
+$autoload['model'] = array('user_model','menu_model','room_model','gallery_model','roomaccommodation_model','roomimage_model',);
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */

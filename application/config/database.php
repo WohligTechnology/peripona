@@ -66,47 +66,21 @@ $active_record = TRUE;
 //$myserver=$_SERVER['SERVER_NAME'];
 
 
-$myserver=$_SERVER['SERVER_NAME'];
-
-if($myserver=="www.indiavaluehomes.com" || $myserver=="indiavaluehomes.com" || $myserver=="www.indiavaluehomes.biz" || $myserver=="wohlig.biz")
-{
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'indiaval_sare';
-$db['default']['password'] = 'chintan123';
-$db['default']['database'] = 'indiaval_sare';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
-}
-else
-{
-
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'martyr';
-$db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
-
-
-}
+//$db['default']['hostname'] = getconfig("hostname");
+//$db['default']['username'] = getconfig("username");
+//$db['default']['password'] = getconfig("password");
+//$db['default']['database'] = getconfig("database");
+//$db['default']['dbdriver'] = 'mysql';
+//$db['default']['dbprefix'] = '';
+//$db['default']['pconnect'] = TRUE;
+//$db['default']['db_debug'] = TRUE;
+//$db['default']['cache_on'] = FALSE;
+//$db['default']['cachedir'] = '';
+//$db['default']['char_set'] = 'utf8';
+//$db['default']['dbcollat'] = 'utf8_general_ci';
+//$db['default']['swap_pre'] = '';
+//$db['default']['autoinit'] = TRUE;
+//$db['default']['stricton'] = FALSE;
 
 
 
@@ -131,21 +105,21 @@ $db['default']['stricton'] = FALSE;
 ////$db['default']['stricton'] = FALSE;
 //
 //
-//$db['default']['hostname'] = 'localhost';
-//$db['default']['username'] = 'root';
-//$db['default']['password'] = '';
-//$db['default']['database'] = 'videoadmin';
-//$db['default']['dbdriver'] = 'mysql';
-//$db['default']['dbprefix'] = '';
-//$db['default']['pconnect'] = TRUE;
-//$db['default']['db_debug'] = TRUE;
-//$db['default']['cache_on'] = FALSE;
-//$db['default']['cachedir'] = '';
-//$db['default']['char_set'] = 'utf8';
-//$db['default']['dbcollat'] = 'utf8_general_ci';
-//$db['default']['swap_pre'] = '';
-//$db['default']['autoinit'] = TRUE;
-//$db['default']['stricton'] = FALSE;
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'chennai';
+$db['default']['dbdriver'] = 'mysql';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'utf8';
+$db['default']['dbcollat'] = 'utf8_general_ci';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = TRUE;
+$db['default']['stricton'] = FALSE;
 
 
 
