@@ -358,12 +358,17 @@ p.explore-plast {
 .box a:hover {
     background-color: #D1121E;
 }
-a.enter-btn:hover
-{
+
+a.enter-btn:hover {
     text-decoration: none;
 }
+
 .foot-main ul>li>a:hover {
     color: #fff!important;
+}
+
+.logo {
+    z-index: 99999999999;
 }
 
 .text-footer-link p a:hover {

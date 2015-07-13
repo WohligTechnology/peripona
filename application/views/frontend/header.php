@@ -51,7 +51,7 @@
     <div class="content menu-main">
         <header class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-4">
+                <div class="col-md-4 col-xs-6 logo">
                     <div class="logo">
                         <a href="<?php echo site_url('/website/index') ?>">
                         <img src="<?php echo base_url('frontassets/image/logo.png'); ?>">

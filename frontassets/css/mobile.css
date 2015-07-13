@@ -49,6 +49,7 @@
     }
     .overview-cont h2 {
         font-size: 24px;
+        margin: 0;
     }
     .send {
         padding: 25px 0px 25px 0;
