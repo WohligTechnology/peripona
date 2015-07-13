@@ -1,11 +1,18 @@
 body,
+p,
+a,
+span,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Josefin Sans', 'Questrial', 'Maven Pro' sans-serif!important;
+h6,
+input,
+button,
+select,
+textarea {
+    font-family: 'Josefin Sans', sans-serif!important;
 }
 
 a {
@@ -370,7 +377,7 @@ p.date-bold {
 .box a {
     color: #fff;
     background-color: #e30613;
-    padding: 10px 24px;
+    padding: 10px 20px;
     text-decoration: none;
     font-family: 'Josefin Sans';
     font-weight: 700;

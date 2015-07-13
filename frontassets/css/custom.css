@@ -505,7 +505,10 @@ a.explore {
     color: #000;
     text-decoration: none;
     font-weight: 600;
-    padding: 5px 15px 3px 15px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
