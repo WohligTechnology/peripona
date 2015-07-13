@@ -20,17 +20,17 @@
             <div class="col-md-4 col-sm-6">
                 <div class="ftr-head">
                     <ul>
-                        <li><a href="#">  OVERVIEW</a>
+                        <li><a href="<?php echo site_url('/website/overview') ?>">  OVERVIEW</a>
                         </li>
-                        <li><a href="#">ROOMS</a>
+                        <li><a href="<?php echo site_url('/website/room') ?>">ROOMS</a>
                         </li>
-                        <li><a href="#">AMENITIES</a>
+                        <li><a href="<?php echo site_url('/website/amenities') ?>">AMENITIES</a>
                         </li>
-                        <li><a href="#">GALLERY</a>
+                        <li><a href="<?php echo site_url('/website/gallery') ?>">GALLERY</a>
                         </li>
-                        <li><a href="#">EXPLORE PHOENIX MARKETCITY</a>
+                        <li><a href="<?php echo site_url('/website/explore') ?>">EXPLORE PHOENIX MARKETCITY</a>
                         </li>
-                        <li><a href="#">CONTACT US</a>
+                        <li><a href="<?php echo site_url('/website/contact') ?>">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
