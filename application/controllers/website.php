@@ -36,12 +36,16 @@ class Website extends CI_Controller
 	{
 		$data["page"]="room";
         $data['active']="room";
-        $data['room']=$this->room_model->getroomdetailsbyid();
         $this->load->view("frontend",$data);
 	} 
         public function roomdetail()
 	{
 		$data["page"]="roomdetail";
+        $data['active']="room";
+        $id=$this->input->get('id');
+        $data['room']=$this->room_model->getroomdetailsbyid($id);
+        $data['accommodation']=$this->roomaccommodation_model->getaccommodationbyroom($id);
+        $data['images']=$this->roomimage_model->getimagesbyroom($id);
         $this->load->view("frontend",$data);
 	} 
        public function amenities()
