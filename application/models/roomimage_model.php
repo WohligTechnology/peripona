@@ -40,7 +40,7 @@ class roomimage_model extends CI_Model
     
     public function getimagesbyroom($id)
     {
-        $query=$this->db->query("SELECT * FROM `chennai_roomimage` WHERE `room`='$id'")->result();
+        $query=$this->db->query("SELECT * FROM `chennai_roomimage` WHERE `room`='$id' ORDER BY `order` ASC LIMIT 0,3")->result();
         return $query;
     }
 }

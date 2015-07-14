@@ -40,14 +40,15 @@
                     <h5>NEWSLETTER SIGNUP</h5>
                     <form class="footer-form">
                         <div class="input-text">
-                            <input type="text" class="form-control" id="" placeholder="Enter Email Address">
+                            <input type="text" class="form-control emailclass" id="" placeholder="Enter Email Address">
                         </div>
 
                         <div class="button-text">
                             <button type="submit" class="btn btn-default">GO</button>
                         </div>
+                        
+                    </form>
                 </div>
-                </form>
 
                 <!--
                     <form class="footer-form">
@@ -109,7 +110,52 @@
                 }
             }
         });
+         
+//isEmailAddress("azamsharp@gmail.com");
+//    function isEmailAddress(str) {
+//
+//        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+//    console.log(re.test(str));    
+//
+//    }
+//    });
+</script>
+<script>
+    $(".newslettersubmit").click(function () {
+        
+        console.log($( ".emailclass" ).val());
+        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+//    console.log(re.test(str)); 
+//        $.getJSON(
+//            "<?php echo base_url(); ?>index.php/website/addnewsletter?email=" + $('#cityid').val(), {
+//                address: $(".addressclass").val()
+//            },
+//            function (data) {
+//                console.log(data.results[0]);
+//                console.log(data.results[0].geometry.location.lat);
+//                console.log(data.results[0].geometry.location.lng);
+//                $('.latitudeclass').val(data.results[0].geometry.location.lat);
+//                $('.longitudeclass').val(data.results[0].geometry.location.lng);
+//                nodata = data;
+//            }
+//        );
     });
+        
+    function changearea() {
+        console.log($('#cityid').val());
+        $.getJSON(
+            "<?php echo base_url(); ?>index.php/site/getareadropdown/" + $('#cityid').val(), {
+                id: "123"
+            },
+            function (data) {
+                console.log(data);
+                nodata=data;
+                changeareadropdown(data);
+
+            }
+
+        );
+    }
 </script>
 </body>
 

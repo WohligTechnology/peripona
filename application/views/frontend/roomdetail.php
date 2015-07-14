@@ -65,7 +65,9 @@
         ?>
   
     </div>
-    
+    <?php
+//    print_r($images);
+    ?>
     <div class="row galleryin">
         <div class="acc text-center">
             <span>GALLERY</span>
@@ -74,6 +76,20 @@
         </div>
     </div>
     <div class="row galleryout">
+       <?php
+        foreach($images as $value)
+        {
+            $image=$value->image;
+        ?>
+        <div class="col-md-4 col-sm-6">
+            <div class="inner-img">
+                <img src="<?php echo base_url('uploads/'.$image); ?>" class="img-responsive" />
+            </div>
+        </div>
+        <?php
+        }
+        ?>
+<!--
         <div class="col-md-4 col-sm-6">
             <div class="inner-img">
                 <img src="<?php echo base_url('frontassets/image//gallery/galleryin1.jpg'); ?>" class="img-responsive" />
@@ -89,6 +105,7 @@
                 <img src="<?php echo base_url('frontassets/image//gallery/galleryin3.jpg'); ?>" class="img-responsive" />
             </div>
         </div>
+-->
     </div>
     <div class="row booknowbt">
         <div class="booknow text-center">
