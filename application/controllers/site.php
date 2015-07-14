@@ -1037,6 +1037,354 @@ $this->gallery_model->delete($this->input->get("id"));
 $data["redirect"]="site/viewgallery";
 $this->load->view("redirect",$data);
 }
+	// contact us
+	
+	public function createcontactus()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data[ 'status' ] =$this->contactus_model->getstatusdropdown();
+		$data[ 'page' ] = 'createcontactus';
+		$data[ 'title' ] = 'Create contactus';
+		$this->load->view( 'template', $data );	
+	}
+	function createcontactussubmit()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$this->form_validation->set_rules('firstname','Firstname','trim|required|max_length[30]');
+		$this->form_validation->set_rules('lastname','Lastname','trim|required|max_length[30]');
+		$this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+		$this->form_validation->set_rules('contact','contact','trim|required|max_length[30]');
+		$this->form_validation->set_rules('status','status','trim|');
+		$this->form_validation->set_rules('request','Request','trim|');
+		if($this->form_validation->run() == FALSE)	
+		{
+			$data['alerterror'] = validation_errors();
+            $data[ 'status' ] =$this->contactus_model->getstatusdropdown();
+            $data[ 'page' ] = 'createcontactus';
+            $data[ 'title' ] = 'Create contactus';
+            $this->load->view( 'template', $data );	
+		}
+		else
+		{
+            $firstname=$this->input->post('firstname');
+            $lastname=$this->input->post('lastname');
+            $email=$this->input->post('email');
+            $contact=$this->input->post('contact');
+            $status=$this->input->post('status');
+            $request=$this->input->post('request');
+			if($this->contactus_model->create($firstname,$lastname,$email,$contact,$status,$request)==0)
+			$data['alerterror']="New contactus could not be created.";
+			else
+			$data['alertsuccess']="contactus created Successfully.";
+			$data['redirect']="site/viewcontactus";
+			$this->load->view("redirect",$data);
+		}
+	}
+    function viewcontactus()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data['page']='viewcontactus';
+        $data['base_url'] = site_url("site/viewcontactusjson");      
+		$data['title']='View contactus';
+		$this->load->view('template',$data);
+	} 
+    function viewcontactusjson()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+        
+        
+        $elements=array();
+        $elements[0]=new stdClass();
+        $elements[0]->field="`contactus`.`id`";
+        $elements[0]->sort="1";
+        $elements[0]->header="ID";
+        $elements[0]->alias="id";
+        
+        
+        $elements[1]=new stdClass();
+        $elements[1]->field="`contactus`.`firstname`";
+        $elements[1]->sort="1";
+        $elements[1]->header="Firstname";
+        $elements[1]->alias="firstname";
+        
+        $elements[2]=new stdClass();
+        $elements[2]->field="`contactus`.`lastname`";
+        $elements[2]->sort="1";
+        $elements[2]->header="Lastname";
+        $elements[2]->alias="lastname";
+        
+        $elements[3]=new stdClass();
+        $elements[3]->field="`contactus`.`email`";
+        $elements[3]->sort="1";
+        $elements[3]->header="Email";
+        $elements[3]->alias="email";
+        
+        $elements[4]=new stdClass();
+        $elements[4]->field="`contactus`.`contact`";
+        $elements[4]->sort="1";
+        $elements[4]->header="Contact";
+        $elements[4]->alias="contact";
+		
+		$elements[5]=new stdClass();
+        $elements[5]->field="`contactus`.`status`";
+        $elements[5]->sort="1";
+        $elements[5]->header="Status";
+        $elements[5]->alias="status";
+		
+		$elements[6]=new stdClass();
+        $elements[6]->field="`contactus`.`timestamp`";
+        $elements[6]->sort="1";
+        $elements[6]->header="Timestamp";
+        $elements[6]->alias="timestamp";
+        
+       
+        
+        $search=$this->input->get_post("search");
+        $pageno=$this->input->get_post("pageno");
+        $orderby=$this->input->get_post("orderby");
+        $orderorder=$this->input->get_post("orderorder");
+        $maxrow=$this->input->get_post("maxrow");
+        if($maxrow=="")
+        {
+            $maxrow=20;
+        }
+        
+        if($orderby=="")
+        {
+            $orderby="id";
+            $orderorder="ASC";
+        }
+       
+        $data["message"]=$this->chintantable->query($pageno,$maxrow,$orderby,$orderorder,$search,$elements,"FROM `contactus`");
+        
+		$this->load->view("json",$data);
+	} 
+    
+    
+	function editcontactus()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data[ 'status' ] =$this->contactus_model->getstatusdropdown();
+		$data['before']=$this->contactus_model->beforeedit($this->input->get('id'));
+		$data['page']='editcontactus';
+		$data['title']='Edit contactus';
+		$this->load->view('template',$data);
+	}
+	function editcontactussubmit()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		
+		$this->form_validation->set_rules('firstname','Firstname','trim|required|max_length[30]');
+		$this->form_validation->set_rules('lastname','Lastname','trim|required|max_length[30]');
+		$this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+		$this->form_validation->set_rules('contact','contact','trim|required|max_length[30]');
+		$this->form_validation->set_rules('status','status','trim|');
+		$this->form_validation->set_rules('request','Request','trim|');
+		if($this->form_validation->run() == FALSE)	
+		{
+			$data['alerterror'] = validation_errors();
+			$data[ 'status' ] =$this->contactus_model->getstatusdropdown();
+			$data['before']=$this->contactus_model->beforeedit($this->input->post('id'));
+			$data['page']='editcontactus';
+//			$data['page2']='block/userblock';
+			$data['title']='Edit contactus';
+			$this->load->view('template',$data);
+		}
+		else
+		{
+            
+            $id=$this->input->get_post('id');
+            $firstname=$this->input->post('firstname');
+            $lastname=$this->input->post('lastname');
+            $email=$this->input->post('email');
+            $contact=$this->input->post('contact');
+            $status=$this->input->post('status');
+            $request=$this->input->post('request');
+            $timestamp=$this->input->post('timestamp');
+//            $category=$this->input->get_post('category');
+            
+           
+			if($this->contactus_model->edit($id,$firstname,$lastname,$email,$contact,$status,$request,$timestamp)==0)
+			$data['alerterror']="contactus Editing was unsuccesful";
+			else
+			$data['alertsuccess']="contactus edited Successfully.";
+			
+			$data['redirect']="site/viewcontactus";
+			//$data['other']="template=$template";
+			$this->load->view("redirect",$data);
+			
+		}
+	}
+	
+	function deletecontactus()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$this->contactus_model->deletecontactus($this->input->get('id'));
+//		$data['table']=$this->contactus_model->viewusers();
+		$data['alertsuccess']="contactus Deleted Successfully";
+		$data['redirect']="site/viewcontactus";
+			//$data['other']="template=$template";
+		$this->load->view("redirect",$data);
+	}
+
+	
+	// newsletter
+	
+	public function createnewsletter()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data[ 'page' ] = 'createnewsletter';
+		$data[ 'title' ] = 'Create newsletter';
+		$this->load->view( 'template', $data );	
+	}
+	function createnewslettersubmit()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+		if($this->form_validation->run() == FALSE)	
+		{
+			$data['alerterror'] = validation_errors();
+            $data[ 'page' ] = 'createnewsletter';
+            $data[ 'title' ] = 'Create newsletter';
+            $this->load->view( 'template', $data );	
+		}
+		else
+		{
+         
+            $email=$this->input->post('email');         
+			if($this->newsletter_model->create($email)==0)
+			$data['alerterror']="New newsletter could not be created.";
+			else
+			$data['alertsuccess']="newsletter created Successfully.";
+			$data['redirect']="site/viewnewsletter";
+			$this->load->view("redirect",$data);
+		}
+	}
+    function viewnewsletter()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data['page']='viewnewsletter';
+        $data['base_url'] = site_url("site/viewnewsletterjson");      
+		$data['title']='View newsletter';
+		$this->load->view('template',$data);
+	} 
+    function viewnewsletterjson()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+        
+        
+        $elements=array();
+        $elements[0]=new stdClass();
+        $elements[0]->field="`newsletter`.`id`";
+        $elements[0]->sort="1";
+        $elements[0]->header="ID";
+        $elements[0]->alias="id";
+        
+        
+        $elements[1]=new stdClass();
+        $elements[1]->field="`newsletter`.`email`";
+        $elements[1]->sort="1";
+        $elements[1]->header="Email";
+        $elements[1]->alias="email";
+   
+		
+		$elements[2]=new stdClass();
+        $elements[2]->field="`newsletter`.`timestamp`";
+        $elements[2]->sort="1";
+        $elements[2]->header="Timestamp";
+        $elements[2]->alias="timestamp";
+        
+       
+        
+        $search=$this->input->get_post("search");
+        $pageno=$this->input->get_post("pageno");
+        $orderby=$this->input->get_post("orderby");
+        $orderorder=$this->input->get_post("orderorder");
+        $maxrow=$this->input->get_post("maxrow");
+        if($maxrow=="")
+        {
+            $maxrow=20;
+        }
+        
+        if($orderby=="")
+        {
+            $orderby="id";
+            $orderorder="ASC";
+        }
+       
+        $data["message"]=$this->chintantable->query($pageno,$maxrow,$orderby,$orderorder,$search,$elements,"FROM `newsletter`");
+        
+		$this->load->view("json",$data);
+	} 
+    
+    
+	function editnewsletter()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$data['before']=$this->newsletter_model->beforeedit($this->input->get('id'));
+		$data['page']='editnewsletter';
+		$data['title']='Edit newsletter';
+		$this->load->view('template',$data);
+	}
+	function editnewslettersubmit()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		
+		$this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+		if($this->form_validation->run() == FALSE)	
+		{
+			$data['alerterror'] = validation_errors();
+			$data['before']=$this->newsletter_model->beforeedit($this->input->post('id'));
+			$data['page']='editnewsletter';
+//			$data['page2']='block/userblock';
+			$data['title']='Edit newsletter';
+			$this->load->view('template',$data);
+		}
+		else
+		{
+            
+            $id=$this->input->get_post('id');
+            $email=$this->input->post('email');
+            $timestamp=$this->input->post('timestamp');
+//            $category=$this->input->get_post('category');
+            
+           
+			if($this->newsletter_model->edit($id,$email,$timestamp)==0)
+			$data['alerterror']="newsletter Editing was unsuccesful";
+			else
+			$data['alertsuccess']="newsletter edited Successfully.";
+			
+			$data['redirect']="site/viewnewsletter";
+			//$data['other']="template=$template";
+			$this->load->view("redirect",$data);
+			
+		}
+	}
+	
+	function deletenewsletter()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+		$this->newsletter_model->deletenewsletter($this->input->get('id'));
+//		$data['table']=$this->newsletter_model->viewusers();
+		$data['alertsuccess']="newsletter Deleted Successfully";
+		$data['redirect']="site/viewnewsletter";
+			//$data['other']="template=$template";
+		$this->load->view("redirect",$data);
+	}
 
 }
 ?>
