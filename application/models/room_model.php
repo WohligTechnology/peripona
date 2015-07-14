@@ -50,5 +50,38 @@ class room_model extends CI_Model
         $query=$this->db->query("SELECT `id`, `name`, `image`, `timestamp`, `description` FROM `chennai_room` WHERE `id`='$id'")->row();
         return $query;
     }
+    
+    public function addnewsletter($email)
+    {
+        $checkemail=$this->db->query("SELECT * FROM `newsletter` WHERE `email`='$email'")->row();
+        if(empty($checkemail))
+        {
+            $query=$this->db->query( "INSERT INTO `newsletter`(`email`) VALUES ('$email')" );
+            $id=$this->db->insert_id();
+            if(!$query)
+            return  0;
+            else
+            return  $id;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+    
+    public function getallroomdetails()
+    {
+        $query=$this->db->query("SELECT * FROM `chennai_room`")->result();
+        
+		foreach($query as $row)
+		{
+			$roomid = $row->id;
+			$row->roomimage=$this->db->query("SELECT `chennai_roomimage`.`image`,`chennai_roomimage`.`order` FROM `chennai_roomimage` 
+			WHERE `chennai_roomimage`.`room`='$roomid'
+			ORDER BY `chennai_roomimage`.`order`")->result();
+		}
+        return $query;
+    }
+    
 }
 ?>

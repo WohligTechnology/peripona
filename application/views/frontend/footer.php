@@ -38,16 +38,16 @@
             <div class="col-md-4 col-sm-12">
                 <div class="ftr-head footer-last">
                     <h5>NEWSLETTER SIGNUP</h5>
-                    <form class="footer-form">
+<!--                    <form class="footer-form">-->
                         <div class="input-text">
                             <input type="text" class="form-control emailclass" id="" placeholder="Enter Email Address">
                         </div>
 
                         <div class="button-text">
-                            <button type="submit" class="btn btn-default">GO</button>
+                            <button type="submit" class="btn btn-default newslettersubmit">GO</button>
                         </div>
                         
-                    </form>
+<!--                    </form>-->
                 </div>
 
                 <!--
@@ -118,44 +118,36 @@
 //    console.log(re.test(str));    
 //
 //    }
-//    });
+    });
 </script>
 <script>
     $(".newslettersubmit").click(function () {
-        
+        var str=$( ".emailclass" ).val();
         console.log($( ".emailclass" ).val());
         var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-//    console.log(re.test(str)); 
-//        $.getJSON(
-//            "<?php echo base_url(); ?>index.php/website/addnewsletter?email=" + $('#cityid').val(), {
-//                address: $(".addressclass").val()
-//            },
-//            function (data) {
-//                console.log(data.results[0]);
-//                console.log(data.results[0].geometry.location.lat);
-//                console.log(data.results[0].geometry.location.lng);
-//                $('.latitudeclass').val(data.results[0].geometry.location.lat);
-//                $('.longitudeclass').val(data.results[0].geometry.location.lng);
-//                nodata = data;
-//            }
-//        );
-    });
+    console.log(re.test(str)); 
         
-    function changearea() {
-        console.log($('#cityid').val());
+        if(re.test(str))
+        {
         $.getJSON(
-            "<?php echo base_url(); ?>index.php/site/getareadropdown/" + $('#cityid').val(), {
-                id: "123"
+            "<?php echo base_url(); ?>index.php/website/addnewsletter?email=" + $('.emailclass').val(), {
+                
             },
             function (data) {
+                if(data>0)
+                {
+                    $( ".emailclass" ).val("");
+                }
                 console.log(data);
-                nodata=data;
-                changeareadropdown(data);
-
             }
-
         );
-    }
+        }
+        else
+        {
+        
+        }
+    });
+    
 </script>
 </body>
 

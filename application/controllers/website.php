@@ -36,6 +36,7 @@ class Website extends CI_Controller
 	{
 		$data["page"]="room";
         $data['active']="room";
+        $data['room']=$this->room_model->getallroomdetails();
         $this->load->view("frontend",$data);
 	} 
         public function roomdetail()
@@ -53,6 +54,21 @@ class Website extends CI_Controller
 		$data["page"]="amenities";
         $data['active']="amenities";
         $this->load->view("frontend",$data);
+	}   
+    
+       public function addnewsletter()
+	{
+        $email=$this->input->get('email');
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) 
+        {
+            $data["message"]=$this->room_model->addnewsletter($email);
+            $this->load->view("json",$data);
+        } 
+        else 
+        {
+            $data["message"]=0;
+            $this->load->view("json",$data);
+        }
 	}   
     
     public function explore()
