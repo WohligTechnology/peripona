@@ -15,6 +15,10 @@ textarea {
     font-family: 'Josefin Sans', sans-serif!important;
 }
 
+body {
+    color: #000!important;
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -35,8 +39,13 @@ a:hover {
 
 a:hover,
 a:focus {
-    color: #fff !important;
+    color: #fff!important;
     text-decoration: none;
+}
+
+a.link-over:hover,
+a.link-over:focus {
+    color: #000!important;
 }
 
 .login {
@@ -311,8 +320,8 @@ header a {
 }
 
 .overview-cont.text-center p {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .bath-set span {
@@ -406,7 +415,7 @@ p.date-bold {
 .overview-cont h2 {
     font-family: 'Josefin Sans';
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .carousel-inner {
@@ -539,9 +548,9 @@ img.right {
 .room-side p {
     padding: 0 45px;
     display: -webkit-box;
-    height: 97px;
+    height: 104px;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
@@ -570,7 +579,7 @@ img.right {
     border: none;
     position: relative;
     border-bottom: 1px solid white;
-    font-size: 17px;
+    font-size: 18px;
     padding: 1px 0;
 }
 
@@ -608,13 +617,13 @@ p.pad-top {
 }
 
 .ul-lists {
-    font-size: 17px;
+    font-size: 18px;
     margin: 0px 0px 0px -18px;
 }
 
 .ul-lists ul li span {
     color: #000;
-    font-size: 17px;
+    font-size: 18px;
     vertical-align: middle;
     text-transform: capitalize;
 }

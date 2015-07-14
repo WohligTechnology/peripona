@@ -52,7 +52,7 @@ DESIGN  HOTEL  CHENNAI</h1>
             <div class="row">
                 <div class="col-md-3 col-sm-6 ">
                     <div class="wlcm-dsgn">
-                        <img src="<?php echo base_url('frontassets/image/ati.png'); ?>" class="img-responsive">
+                        <img src="<?php echo base_url('frontassets/image/ati.png'); ?>" class="img-circle" width="240" height="240">
                         <h4>ati</h4>
                         <p>The tasteful, monochrome Ati Corridor has manifestations of the elegant and rich Kolam Rice art, or 'Rangolee' adorning it. Black inlaid on gray, alternating with white stripes...</p>
                         <a <?php echo site_url( '/website/roomdetail') ?> class="explore">EXPLORE</a>
@@ -60,7 +60,7 @@ DESIGN  HOTEL  CHENNAI</h1>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="wlcm-dsgn">
-                        <img src="<?php echo base_url('frontassets/image/maya.png'); ?>" class="img-responsive">
+                        <img src="<?php echo base_url('frontassets/image/maya.png'); ?>" class="img-circle" width="240" height="240">
                         <h4>maya</h4>
                         <p>Traveling along the Maya Corridor transports you to a vibrant world true to its mystical name. The centerpiece of the seven (7) rooms located within is a stunning lenticular Tanjore painting</p>
                         <a <?php echo site_url( '/website/roomdetail') ?> class="explore">EXPLORE</a>
@@ -68,7 +68,7 @@ DESIGN  HOTEL  CHENNAI</h1>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="wlcm-dsgn">
-                        <img src="<?php echo base_url('frontassets/image/nunya.png'); ?>" class="img-responsive">
+                        <img src="<?php echo base_url('frontassets/image/nunya.png'); ?>" class="img-circle" width="240" height="240">
                         <h4>nunya</h4>
                         <p>The Nunya Corridor gives testament to the power and beauty of simplicity. Finished in off-white laminate, the passageway features a mirror at the end, giving an illusion of an infinite corridor </p>
                         <a <?php echo site_url( '/website/roomdetail') ?> class="explore">EXPLORE</a>
@@ -76,7 +76,7 @@ DESIGN  HOTEL  CHENNAI</h1>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="wlcm-dsgn">
-                        <img src="<?php echo base_url('frontassets/image/roop.png'); ?>" class="img-responsive">
+                        <img src="<?php echo base_url('frontassets/image/roop.png'); ?>" class="img-circle" width="240" height="240">
                         <h4>roop</h4>
                         <p>The Roop Corridor serves as a modern take on the Thousand Pillars of the Madurai Temple, where Tamil art & literature flourished for generations. The six (6) enchanting room </p>
                         <a <?php echo site_url( '/website/roomdetail') ?> class="explore">EXPLORE</a>
