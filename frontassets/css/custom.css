@@ -3,15 +3,17 @@ p {
 }
 
 .overview-cont {
-    padding: 45px 0;
+    padding: 45px 0 20px 0px;
 }
 
 .overview-cont p {
     font-family: 'Josefin Sans';
-    font-weight: 400;
-    margin: 0;
-    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 39px;
+    font-size: 18px;
     text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .text-footer-link {
@@ -147,6 +149,31 @@ form.footer-form .col-xs-2 {
 }
 
 .contactform input {
+    min-height: 45px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    min-height: 45px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background: bottom left -webkit-gradient(linear, left top, left bottom, from(#a9a9a9), to(#a9a9a9)) no-repeat, bottom center -webkit-gradient(linear, left top, left bottom, from(#a9a9a9), to(#a9a9a9)) repeat-x, bottom right -webkit-gradient(linear, left top, left bottom, from(#a9a9a9), to(#a9a9a9)) no-repeat;
+    background: bottom left -webkit-linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center -webkit-linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right -webkit-linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background: bottom left -moz-linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center -moz-linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right -moz-linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background: bottom left -o-linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center -o-linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right -o-linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+    -webkit-background-size: 1px 6px, 1px 1px, 1px 6px;
+    -moz-background-size: 1px 6px, 1px 1px, 1px 6px;
+    -o-background-size: 1px 6px, 1px 1px, 1px 6px;
+    background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+/*
+.contactform input {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -157,7 +184,13 @@ form.footer-form .col-xs-2 {
     font-size: 18px;
     border-color: #666666;
     color: #000;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    border-bottom: 1px solid;
 }
+*/
 
 .contactform input:focus {
     border-color: #ddd;
@@ -169,7 +202,7 @@ form.footer-form .col-xs-2 {
 .conct-head h1 {
     font-family: 'Josefin Sans';
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .contactform {
@@ -185,17 +218,18 @@ form.footer-form .col-xs-2 {
 }
 
 .send.text-center a {
-    border: 1px solid;
+    border: 1px solid #e30613;
     text-decoration: none;
     padding: 14px 100px;
     text-transform: uppercase;
-    color: #000;
-    font-size: 18px;
+    color: #fff;
+    font-size: 20px;
     font-family: 'Josefin Sans';
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
+    background-color: #e30613;
 }
 
 .send {
@@ -236,7 +270,7 @@ form.footer-form .col-xs-2 {
     font-weight: 400;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .explore-img {
@@ -347,6 +381,9 @@ p.explore-plast {
 .homebg-text h2 {
     font-size: 40px;
     letter-spacing: 3px;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 .row.mrg.home-date {
@@ -417,7 +454,7 @@ a.explore:hover {
 }
 
 .home-welcm {
-    padding: 60px 0 60px 0px;
+    padding: 90px 0 60px 0px;
     text-align: center;
     font-family: Josefin Sans Light;
 }
@@ -440,6 +477,7 @@ a.explore:hover {
 
 .home-welcm h1 {
     padding: 40px 0 20px 0;
+    font-weight: 500;
 }
 
 .wel-cm {
@@ -448,7 +486,7 @@ a.explore:hover {
 }
 
 .wel-cm p {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -462,6 +500,10 @@ img.img-responsive.img-horse {
 
 .make-contain {
     margin-top: -50px;
+}
+
+.overview-slider {
+    padding: 0 0 55px 0;
 }
 
 .home-mades {
@@ -481,9 +523,9 @@ img.img-responsive.img-horse {
 
 .wlcm-dsgn p {
     display: -webkit-box;
-    height: 115px;
+    height: 130px;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.4;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
@@ -526,4 +568,42 @@ a.explore:focus {
 
 .pull-right.footer-icons i:hover {
     color: #fff!important;
+}
+
+a.carousel-controls.controls-left {
+    left: 0;
+    top: 50%;
+}
+
+a.carousel-controls.controls-right {
+    top: 50%;
+    right: 0;
+}
+
+img.overview-img {
+    margin: 0 auto;
+    padding: 0 135px;
+}
+
+.half-circle {
+    height: 10px;
+    width: 23px;
+    border-radius: 0px 0px 110px 110px;
+    -moz-border-radius: 0px 0px 110px 110px;
+    -webkit-border-radius: 0px 0px 110px 110px;
+    background: #e30613;
+    margin: 0px 40px;
+    font-family: 'Josefin Sans';
+}
+
+.contact-add span {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 600;
+    color: #636363;
+}
+
+a.link-over {
+  text-decoration: underline;
+  color: #000;
 }

@@ -11,7 +11,8 @@
     <div class="row">
         <div class="col-md-4">
             <div class="contact-add">
-                <h4>ADDRESS</h4>
+                <span>ADDRESS</span>
+                <div class="half-circle"></div>
                 <h4>DESIGN HOTEL CHENNAI</h4>
                 <p>Phoenix Marketcity</p>
                 <p>142, Velachery Main Road, Near Gurunanak College, </p>
@@ -55,11 +56,10 @@
                 <div class="col-md-6">
                     <textarea placeholder="Request"></textarea>
                 </div>
-
             </div>
         </form>
-<div class="send  text-center">
-    <a href="#">Send</a>
-</div>
+        <div class="send  text-center">
+            <a href="#">Submit</a>
+        </div>
     </div>
 </div>
