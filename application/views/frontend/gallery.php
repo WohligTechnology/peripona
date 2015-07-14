@@ -8,6 +8,9 @@
     </div>
 </div>
     <div class="container">
+       <?php
+        print_r($images);
+        ?>
         <div class="overview-cont text-center">
             <p>
                We invite our leisure and business travelers to become immersed in the charm and intrigue of Design Hotel Chennai’s contemporary art styles infused with traditional South Indian Art. Welcome home!    </p>

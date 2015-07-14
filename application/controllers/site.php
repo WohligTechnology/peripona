@@ -426,41 +426,53 @@ $name=$this->input->get_post("name");
 //$image=$this->input->get_post("image");
 $timestamp=$this->input->get_post("timestamp");
 $description=$this->input->get_post("description");
-	$config['upload_path'] = './uploads/';
+//	$config['upload_path'] = './uploads/';
+//			$config['allowed_types'] = 'gif|jpg|png|jpeg';
+//			$this->load->library('upload', $config);
+//			$filename="image";
+//			$image="";
+//			if (  $this->upload->do_upload($filename))
+//			{
+//				$uploaddata = $this->upload->data();
+//				$image=$uploaddata['file_name'];
+//                
+//                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
+//                $config_r['maintain_ratio'] = TRUE;
+//                $config_t['create_thumb'] = FALSE;///add this
+//                $config_r['width']   = 800;
+//                $config_r['height'] = 800;
+//                $config_r['quality']    = 100;
+//                //end of configs
+//
+//                $this->load->library('image_lib', $config_r); 
+//                $this->image_lib->initialize($config_r);
+//                if(!$this->image_lib->resize())
+//                {
+//                    echo "Failed." . $this->image_lib->display_errors();
+//                    //return false;
+//                }  
+//                else
+//                {
+//                    //print_r($this->image_lib->dest_image);
+//                    //dest_image
+//                    $image=$this->image_lib->dest_image;
+//                    //return false;
+//                }
+//                
+//			}
+    
+            $config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
-            
+//    print_r($uploaddata);
+//    echo $image;
 if($this->room_model->create($name,$image,$timestamp,$description)==0)
 $data["alerterror"]="New room could not be created.";
 else
@@ -507,34 +519,10 @@ $description=$this->input->get_post("description");
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
             
             if($image=="")
@@ -797,34 +785,10 @@ $order=$this->input->get_post("order");
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
             
 if($this->roomimage_model->create($room,$name,$image,$order)==0)
@@ -875,36 +839,11 @@ $order=$this->input->get_post("order");
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
-            
             if($image=="")
             {
             $image=$this->user_model->getuserimagebyid($id);
@@ -1017,34 +956,10 @@ $timestamp=$this->input->get_post("timestamp");
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
             
 if($this->gallery_model->create($name,$image,$order,$timestamp)==0)
@@ -1093,34 +1008,10 @@ $timestamp=$this->input->get_post("timestamp");
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$image=$uploaddata['file_name'];
-                
-                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
-                $config_r['maintain_ratio'] = TRUE;
-                $config_t['create_thumb'] = FALSE;///add this
-                $config_r['width']   = 800;
-                $config_r['height'] = 800;
-                $config_r['quality']    = 100;
-                //end of configs
-
-                $this->load->library('image_lib', $config_r); 
-                $this->image_lib->initialize($config_r);
-                if(!$this->image_lib->resize())
-                {
-                    echo "Failed." . $this->image_lib->display_errors();
-                    //return false;
-                }  
-                else
-                {
-                    //print_r($this->image_lib->dest_image);
-                    //dest_image
-                    $image=$this->image_lib->dest_image;
-                    //return false;
-                }
-                
 			}
             
             if($image=="")

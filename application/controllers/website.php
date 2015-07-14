@@ -29,12 +29,14 @@ class Website extends CI_Controller
 	{
 		$data["page"]="gallery";
         $data['active']="gallery";
+        $data['images']=$this->gallery_model->getgallery();
         $this->load->view("frontend",$data);
 	}  
       public function room()
 	{
 		$data["page"]="room";
         $data['active']="room";
+        $data['room']=$this->room_model->getroomdetailsbyid();
         $this->load->view("frontend",$data);
 	} 
         public function roomdetail()

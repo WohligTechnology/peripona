@@ -36,5 +36,10 @@ public function delete($id)
 $query=$this->db->query("DELETE FROM `chennai_gallery` WHERE `id`='$id'");
 return $query;
 }
+public function getgallery()
+{
+$query=$this->db->query("SELECT * FROM `chennai_gallery`")->result();
+return $query;
+}
 }
 ?>
