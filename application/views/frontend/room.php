@@ -26,7 +26,7 @@
         }
     ?>
     
-    <div class="row <?php echo $mt50;?>">
+    <div class="row gallery-room <?php echo $mt50;?>">
         <div class="col-md-3 padding0">
             <div class="room-side <?php echo $name;?>">
                 <img src="<?php echo base_url('frontassets/image/header.png'); ?>">

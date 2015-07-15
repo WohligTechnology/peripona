@@ -16,11 +16,6 @@
                  An extravagant <a class="link-over" href="">11-screen luxury IMAX cinema</a>, a range of restaurants serving local and international cuisines, an interactive gaming zone and <a class="link-over" href="">recreation areas</a> for children are just a few of the offerings that set Phoenix Marketcity apart from traditional retail venues—with the added distinction that our guests will never have to venture outside to gain privileged access once stepping into the Design Hotel Chennai.
             </p>
         </div>
-        <!--
-    <div class="overviewdwn">
-        <img src="<?php echo base_url('frontassets/image/overviewdwn.jpg'); ?>" class="img-responsive">
-    </div>
--->
 
         <div class="overview-slider">
             <div id="myCarousel-4" class="carousel slide" data-ride="carousel">

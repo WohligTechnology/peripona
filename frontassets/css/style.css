@@ -418,18 +418,18 @@ p.date-bold {
     font-weight: 600;
 }
 
-.carousel-inner {
+.gallery-room .carousel-inner {
     overflow: hidden;
     max-height: 400px !important;
 }
 
-.carousel-inner>.item {
+.gallery-room .carousel-inner>.item {
     max-height: 400px !important;
     overflow: hidden;
 }
 
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
+.gallery-room .carousel-inner>.item>img,
+.gallery-room .carousel-inner>.item>a>img {
     line-height: 1;
     width: 100% !important;
     height: auto !important;
@@ -700,11 +700,14 @@ a.carousel-controls.controls-left img {
     padding-right: 0px;
 }
 
-.col-md-8.explore1 {}
+.col-md-8.explore1 {
+    padding-right: 5px;
+}
 
 .col-md-6.explore2 {
     padding-left: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
 .col-md-12.explore4 {
@@ -714,19 +717,19 @@ a.carousel-controls.controls-left img {
 
 .col-md-6.explore3 {
     padding: 0;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 .col-md-6.explore5 {
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 .col-md-6.explore6 {
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 0px;
 }
 
