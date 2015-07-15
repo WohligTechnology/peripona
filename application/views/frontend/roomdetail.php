@@ -83,7 +83,10 @@
         ?>
         <div class="col-md-4 col-sm-6">
             <div class="inner-img">
+               <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('uploads/'.$image); ?>">
                 <img src="<?php echo base_url('uploads/'.$image); ?>" class="img-responsive" />
+                </a>
+                
             </div>
         </div>
         <?php
