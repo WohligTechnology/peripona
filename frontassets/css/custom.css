@@ -131,10 +131,11 @@ form.footer-form .col-xs-2 {
 }
 
 .text-footer-link p {
-    font-size: 11px;
-    text-align: right;
-    line-height: 70%;
+    font-size: 11px !important;
+    text-align: right!important;
+    line-height: 70%!important;
     color: #aaaaaa !important;
+    margin-bottom: 10px !important;
 }
 
 .contactform textarea {
@@ -146,6 +147,9 @@ form.footer-form .col-xs-2 {
     font-size: 18px;
     font-family: 'Josefin Sans';
     font-weight: 400;
+}
+.explore-img {
+  padding: 20px;
 }
 
 .contactform input {
@@ -267,7 +271,7 @@ form.footer-form .col-xs-2 {
 }
 
 .explore p {
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
     font-size: 18px;
@@ -279,7 +283,7 @@ form.footer-form .col-xs-2 {
 
 h3.header-explr {
     font-family: 'Josefin Sans';
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 15px;
     padding-top: 10px;
 }
@@ -291,8 +295,10 @@ h3.header-explr {
 h3.explore-down {
     font-family: 'Josefin Sans';
     padding-bottom: 50px;
-    color: #e30613;
-    font-weight: 400;
+    /*    color: #e30613;*/
+    
+    font-weight: 500;
+    font-size: 18px;
 }
 
 p.explore-plast {
@@ -402,6 +408,14 @@ p.explore-plast {
 
 .box a:hover {
     background-color: #D1121E;
+}
+
+.ftr-head p {
+    color: #aaaaaa;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 a.enter-btn:hover {
@@ -604,6 +618,6 @@ img.overview-img {
 }
 
 a.link-over {
-  text-decoration: underline;
-  color: #000;
+    text-decoration: underline;
+    color: #000;
 }

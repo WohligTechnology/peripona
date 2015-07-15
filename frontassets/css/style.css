@@ -126,7 +126,7 @@ footer.foot-main {
 
 .ftr-head {
     line-height: 100%;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .foot-main ul>li>a {
@@ -208,7 +208,7 @@ header a {
 .thin li a {
     font-size: 13px;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .contact-bk img {
@@ -343,7 +343,7 @@ header a {
 
 .ul-list ul {
     font-family: 'Josefin Sans';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -362,7 +362,7 @@ header a {
 
 .cal p {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100%;
 }
 
@@ -620,18 +620,31 @@ p.pad-top {
     font-size: 18px;
     margin: 0px 0px 0px -18px;
 }
-
+/*
 .ul-lists ul li span {
     color: #000;
     font-size: 18px;
     vertical-align: middle;
     text-transform: capitalize;
 }
+*/
 
 .ul-lists ul li {
     color: #e30613;
     font-size: 12px;
     vertical-align: middle;
+}
+
+.ul-lists ul li {
+    color: #000;
+    font-size: 14px;
+    vertical-align: middle;
+    list-style-type: initial;
+}
+
+a.carousel-controls.controls-right img,
+a.carousel-controls.controls-left img {
+    height: 45px;
 }
 
 .inner-img {
@@ -680,4 +693,70 @@ p.pad-top {
     color: #fff;
     background-color: #000;
     border: #000;
+}
+
+.col-md-4.explore7 {
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.col-md-8.explore1 {}
+
+.col-md-6.explore2 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.col-md-12.explore4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-md-6.explore3 {
+    padding: 0;
+    padding-left: 10px;
+}
+
+.col-md-6.explore5 {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.col-md-6.explore6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.img-gallery img {
+    height: 250px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.explore-img {
+    padding: 0px 0px 40px;
+}
+
+.button-text button {
+    background: #353535;
+    border-color: #353535;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transition: 300ms ease all;
+    -moz-transition: 300ms ease all;
+    -o-transition: 300ms ease all;
+    transition: 300ms ease all;
+}
+
+.button-text button:hover {
+    background: #fff;
+    border-color: #353535;
+    color: #353535;
 }
