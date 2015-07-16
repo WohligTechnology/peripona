@@ -153,6 +153,9 @@
         font-size: 15px;
         padding: 0px 20px;
     }
+    .ftr-head p {
+        text-align: center!important;
+    }
     .row.mrg.home-date {
         margin-top: -120px!important;
     }

@@ -13,7 +13,8 @@
                South India’s largest metropolis was once a desolate sandy strip of land with villages strung along the fabled Coromandel Coast. It rapidly expanded into a settlement, progressed into a town, transformed into a city and today flourishes as a metropolis.  Design Hotel Chennai tracks the shades of contemporary India’s aesthetic sense, from sleek minimalism to refined opulence in a setting that epitomizes the synergy of global and local styles.
             </p>
              <p>
-                 An extravagant <a class="link-over" href="">11-screen luxury IMAX cinema</a>, a range of restaurants serving local and international cuisines, an interactive gaming zone and <a class="link-over" href="">recreation areas</a> for children are just a few of the offerings that set Phoenix Marketcity apart from traditional retail venues—with the added distinction that our guests will never have to venture outside to gain privileged access once stepping into the Design Hotel Chennai.
+                   An extravagant <a class="link-over" href="http://www.spicinemas.in/cinemas/luxe" target="_blank">11-screen luxury IMAX cinema</a>, a range of restaurants serving local and international cuisines, an interactive gaming zone and <a class="link-over" href=" http://phoenixmarketcitychennai.com/sort-type/entertain/" target="_blank">recreation areas</a> for children are just a few of the offerings that set Phoenix Marketcity apart from traditional retail venues—with the added distinction that our guests will never have to venture outside to gain privileged access once stepping into the Design Hotel Chennai.
+
             </p>
         </div>
 

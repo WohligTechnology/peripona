@@ -12,11 +12,13 @@
                 <h3 class="text-center header-explr"> A Capital of Commerce. An Arbiter of Taste.</h3>
                 <p>The city that best encapsulates the India of today treasures its past, nurtures its heritage and embraces its future. Phoenix Marketcity Chennai appreciates each innovation as the foundation for a new tradition. </p>
 
+<!--
                 <p>
 
                     An extravagant <a class="link-over" href="http://www.spicinemas.in/cinemas/luxe" target="_blank">11-screen luxury IMAX cinema</a>, a range of restaurants serving local and international cuisines, an interactive gaming zone and <a class="link-over" href=" http://phoenixmarketcitychennai.com/sort-type/entertain/" target="_blank">recreation areas</a> for children are just a few of the offerings that set Phoenix Marketcity apart from traditional retail venues—with the added distinction that our guests will never have to venture outside to gain privileged access once stepping into the Design Hotel Chennai.
 
                 </p>
+-->
 
                 <!--
                 <div class="explore-img">
@@ -92,31 +94,31 @@
                         <div class="row">
                             <div class="col-md-8 explore1">
                                 <div class="col-md-6 explore2">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore1.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore1.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w3.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w3.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore3">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore2.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore2.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w4.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w4.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-12 explore4">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore4.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore4.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/fw1.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/fw1.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore5">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore5.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore5.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w1.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w1.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore6">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore6.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore6.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w2.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w2.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
 
                             </div>
                             <div>
                                 <div class="col-md-4 explore7">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore3.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore3.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/h1.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/h1.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                             </div>
                         </div>
@@ -126,31 +128,31 @@
                         <div class="row">
                             <div class="col-md-8 explore1">
                                 <div class="col-md-6 explore2">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore1.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore2.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w5.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w5.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore3">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore2.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore1.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w6.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w6.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-12 explore4">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore4.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore4.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/fw2.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/fw2.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore5">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore5.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore6.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w7.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w7.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                                 <div class="col-md-6 explore6">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore6.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore5.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/w8.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/w8.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
 
                             </div>
                             <div>
                                 <div class="col-md-4 explore7">
-                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/explore3.jpg'); ?>">
-          <img src="<?php echo base_url('frontassets/image/explore/explore3.jpg'); ?>" class="img-responsive"/></a>
+                                    <a class="fancybox-thumb" rel="fancybox-thumb" href="<?php echo base_url('frontassets/image/explore/h2.jpg'); ?>">
+          <img src="<?php echo base_url('frontassets/image/explore/thumb/h2.jpg'); ?>" class="img-responsive"/></a>
                                 </div>
                             </div>
                         </div>
@@ -166,3 +168,5 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>

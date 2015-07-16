@@ -701,13 +701,13 @@ a.carousel-controls.controls-left img {
 }
 
 .col-md-8.explore1 {
-    padding-right: 5px;
+    padding-right: 4px;
 }
 
 .col-md-6.explore2 {
     padding-left: 0px;
-    padding-bottom: 5px;
-    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-right: 2px;
 }
 
 .col-md-12.explore4 {
@@ -717,19 +717,19 @@ a.carousel-controls.controls-left img {
 
 .col-md-6.explore3 {
     padding: 0;
-    padding-left: 0px;
+    padding-left: 2px;
 }
 
 .col-md-6.explore5 {
     padding-top: 5px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 2px;
 }
 
 .col-md-6.explore6 {
-    padding-top: 5px;
+    padding-top: 4px;
     padding-bottom: 20px;
-    padding-left: 5px;
+    padding-left: 2px;
     padding-right: 0px;
 }
 
@@ -756,10 +756,21 @@ a.carousel-controls.controls-left img {
     -moz-transition: 300ms ease all;
     -o-transition: 300ms ease all;
     transition: 300ms ease all;
+    color: #fff;
+    text-shadow: 0px 0px 0px !important;
 }
 
 .button-text button:hover {
     background: #fff;
     border-color: #353535;
     color: #353535;
+}
+
+.col-md-9.padding0.paddings .item {
+    height: 400px;
+    overflow: hidden;
+}
+
+.row.mt50.making-end {
+    padding-bottom: 30px;
 }

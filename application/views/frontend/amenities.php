@@ -176,6 +176,7 @@
         </div>
     </div>
 
+<!--
     <div class="row mrg">
         <div class="col-md-offset-3 col-md-6">
             <div class="col-md-6 col-sm-6">
@@ -203,4 +204,5 @@
             </div>
         </div>
     </div>
+-->
 </div>
