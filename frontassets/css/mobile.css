@@ -306,6 +306,37 @@
     .explore-slider.carousel-fade {
     margin-bottom: 20px;
 }
+        a.carousel-controls.controls-right {
+  top: 50%;
+  right: 0;
+          bottom: 152px;
+  opacity: 0.5;
+  transform: translatey(-50%);
+}
+    a.carousel-controls.controls-left {
+  left: 0;
+  top: 50%;
+  opacity: 0.5;
+  transform: translatey(-50%);
+   bottom: 152px;
+}
+    .carousel-controls {
+  position: absolute;
+  top: 0;
+  /* bottom: 0; */
+  right: 0 !important;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+    img.overview-img {
+  margin: 0 auto;
+  padding: 0px 0px;
+}
 }
 
 @media screen and (max-width: 380px) {
@@ -314,6 +345,37 @@
     }
     .explore-slider.carousel-fade {
     margin-bottom: 20px;
+}
+        a.carousel-controls.controls-right {
+  top: 50%;
+  right: 0;
+          bottom: 50px;
+  opacity: 0.5;
+  transform: translatey(-50%);
+}
+    a.carousel-controls.controls-left {
+  left: 0;
+  top: 50%;
+  opacity: 0.5;
+  transform: translatey(-50%);
+  bottom: 50px;
+}
+    .carousel-controls {
+  position: absolute;
+  top: 0;
+  /* bottom: 0; */
+  right: 0 !important;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+    img.overview-img {
+  margin: 0 auto;
+  padding: 0px 0px;
 }
 }
 
@@ -345,5 +407,36 @@
     }
     .explore-slider.carousel-fade {
     margin-bottom: 20px;
+}
+    a.carousel-controls.controls-right {
+  top: 50%;
+  right: 0;
+          bottom: 35px;
+  opacity: 0.5;
+  transform: translatey(-50%);
+}
+    a.carousel-controls.controls-left {
+  left: 0;
+  top: 50%;
+  opacity: 0.5;
+  transform: translatey(-50%);
+  bottom: 35px;
+}
+    .carousel-controls {
+  position: absolute;
+  top: 0;
+  /* bottom: 0; */
+  right: 0 !important;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+    img.overview-img {
+  margin: 0 auto;
+  padding: 0px 0px;
 }
 }
