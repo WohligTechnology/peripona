@@ -767,7 +767,7 @@ a.carousel-controls.controls-left img {
 }
 
 .col-md-9.padding0.paddings .item {
-    height: 400px;
+    height: auto;
     overflow: hidden;
 }
 

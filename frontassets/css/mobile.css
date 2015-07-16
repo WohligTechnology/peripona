@@ -50,7 +50,9 @@
     .overview-cont h2 {
         font-size: 24px;
         margin: 0;
-    }
+    
+        padding-bottom: 22px;
+}
     .send {
         padding: 25px 0px 25px 0;
     }
@@ -115,7 +117,9 @@
     .text-footer-link p.pull-right {
         float: none !important;
         text-align: center;
-    }
+    
+        text-align: center !important;
+}
     .col-md-6.expores1,
     .col-md-6.expores2 {
         padding-left: 0px;
@@ -141,13 +145,15 @@
     }
     .text-footer-link {
         padding-right: 0px;
-    }
+    
+        text-align: center !important;
+}
     .nav>li>a {
         padding: 10px 10px;
     }
     h3.header-explr,
     h3.explore-down {
-        font-size: 20px;
+        font-size: 17px;
     }
     .overview-cont.text-center p {
         font-size: 15px;
@@ -275,12 +281,15 @@
         text-align: justify;
     }
     .overview-cont {
-        padding: 25px 0;
+        padding: 52px 0px 20px 0px;
     }
     .navbar-collapse.in {
         overflow-y: auto;
         min-height: 220px;
     }
+    .explore-slider.carousel-fade {
+    margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width: 991px) {
@@ -294,12 +303,18 @@
         width: 90%;
         float: left;
     }
+    .explore-slider.carousel-fade {
+    margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width: 380px) {
     p.date-bold {
         font-size: 12px;
     }
+    .explore-slider.carousel-fade {
+    margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -310,7 +325,7 @@
         margin-top: -38px;
     }
     .input-text {
-        width: 84%;
+        width: 83%;
         float: left;
     }
     .row.mrg.home-date {
@@ -328,4 +343,7 @@
     .col-sm-6.amenities-block {
         min-height: initial;
     }
+    .explore-slider.carousel-fade {
+    margin-bottom: 20px;
+}
 }
