@@ -160,10 +160,10 @@
 
                     <!-- Left and right controls -->
                     <a class="carousel-controls controls-left" href="#myCarousel-4" role="button" data-slide="prev">
-                 <img src="<?php echo base_url('frontassets/image/Overview/next.png'); ?>" alt="Overview">
+                 <img src="<?php echo base_url('frontassets/image/lefts.png'); ?>" alt="Overview">
                 </a>
                     <a class="carousel-controls controls-right" href="#myCarousel-4" role="button" data-slide="next">
-                <img src="<?php echo base_url('frontassets/image/Overview/prev.png'); ?>" alt="Overview">
+                <img src="<?php echo base_url('frontassets/image/rights.png'); ?>" alt="Overview">
                 </a>
                 </div>
             </div>

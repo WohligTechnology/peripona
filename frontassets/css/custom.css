@@ -588,12 +588,19 @@ a.explore:focus {
 a.carousel-controls.controls-left {
     left: 0;
     top: 50%;
+    opacity:0.5;
+}
+a.carousel-controls.controls-left:hover {
+    opacity:1;
 }
 
+a.carousel-controls.controls-right:hover {
+    opacity:1;
+}
 a.carousel-controls.controls-right {
     top: 50%;
     right: 0;
-    z-index: 9999;
+    opacity:0.5;
 }
 
 img.overview-img {

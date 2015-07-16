@@ -744,20 +744,20 @@ a.carousel-controls.controls-left img {
 }
 
 .button-text button {
-    background: #353535;
-    border-color: #353535;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    -webkit-box-shadow: 0px 0px 0px;
-    -moz-box-shadow: 0px 0px 0px;
-    box-shadow: 0px 0px 0px;
-    -webkit-transition: 300ms ease all;
-    -moz-transition: 300ms ease all;
-    -o-transition: 300ms ease all;
-    transition: 300ms ease all;
-    color: #fff;
-    text-shadow: 0px 0px 0px !important;
+  background: #353535;
+  border-color: #353535;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px transparent;
+  box-shadow: 0px 0px 0px transparent;
+  -webkit-transition: 300ms ease all;
+  -moz-transition: 300ms ease all;
+  -o-transition: 300ms ease all;
+  transition: 300ms ease all;
+  color: #fff;
+  text-shadow: 0px 0px 0px transparent!important;
 }
 
 .button-text button:hover {
